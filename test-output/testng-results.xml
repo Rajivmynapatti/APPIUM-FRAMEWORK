@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="252270" started-at="2018-04-23T06:29:03Z" finished-at="2018-04-23T06:33:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@5cb9f472]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="252270" started-at="2018-04-23T06:29:03Z" finished-at="2018-04-23T06:33:15Z">
+      <class name="com.quickee.steps.RunCuke">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.quickee.steps.RunCuke@5cb9f472]" name="setUpClass" is-config="true" duration-ms="484" started-at="2018-04-23T11:59:03Z" finished-at="2018-04-23T11:59:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickee.steps.RunCuke@5cb9f472]" name="setup" is-config="true" duration-ms="5392" started-at="2018-04-23T11:59:03Z" finished-at="2018-04-23T11:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@5cb9f472]" name="feature" duration-ms="132801" started-at="2018-04-23T11:59:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-23T12:01:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance Testing is check Login and Logout functionality is working fine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@5cb9f472]" name="feature" duration-ms="113122" started-at="2018-04-23T12:01:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-23T12:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance Testing is check upload profile picture functioanlity is working fine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.quickee.steps.RunCuke@5cb9f472]" name="tearDownClass" is-config="true" duration-ms="152" started-at="2018-04-23T12:03:15Z" finished-at="2018-04-23T12:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.quickee.steps.RunCuke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
