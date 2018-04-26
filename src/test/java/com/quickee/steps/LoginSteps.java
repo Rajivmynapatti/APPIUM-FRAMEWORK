@@ -23,7 +23,7 @@ public class LoginSteps extends LoginScreen {
 	public void goToLoginScreen(){
 		
 		getstartedScreen.goToLoginScreen();
-		
+		log.debug("Tapped on Login link from getstartedScreen");
 	}
 	
 	@When("^Enter Email and Password and click on Sign In button$")
@@ -32,20 +32,21 @@ public class LoginSteps extends LoginScreen {
 		enterEmail(getAutoTestEmailUsername());
 		enterPassword(getAutoTestEmailPassword());
 		clickSignInButton();
-		
+		log.debug("Entered user Email and Password and then tap on Sign button from Login screen");
 	}
 	
 	@And("^Click on Profile link from Latest Quickees Screen$")
 	public void goToProfile() throws InterruptedException{
 		
 		latestQuickeesScreen.clickProfileTab();
-		
+		log.debug("Tap on Profile link from the Dashboard Screen");
 	}
 
 	@And("^Click on Settings icon from profile Screen$")
 	public void goToSettings() throws InterruptedException{
 		
 		profileScreen.clickOnSettingsIcon();
+		log.debug("Tap on Setting link from the Profile Screen");
 	}
 	
 	@And("^Click on LogOut tab$")
@@ -54,6 +55,7 @@ public class LoginSteps extends LoginScreen {
 		MethodSwipeUp(5000);
 		settingScreen.logOutUser();
 		driver.switchTo().alert().accept();
+		log.debug("Scroll down upto the Logout link and Click on it and then accept the alert");
 	}
 	
 	@Then("^User should be successfully LogOut$")

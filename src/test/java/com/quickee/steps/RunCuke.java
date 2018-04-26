@@ -11,7 +11,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/RunCuke/cucumber.json", "pretty", "html:target/RunCuke/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
-		features="src/test/resources/FeatureFiles")
+		features="src/test/resources/FeatureFiles", 
+		tags={"@LoginwithValidUser"})
 
 public class RunCuke extends AbstractTestNGCucumberTests{
 	
@@ -27,7 +28,7 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 		//static report name
 		//ExtentCucumberFormatter.initiateExtentCucumberFormatter(new File(System.getProperty("user.dir")+"\\ExtenReports\\extentreports.html"),false);
         // Loads the extent config xml to customize on the report.
-        ExtentCucumberFormatter.loadConfig(new File("src/test/resources/extent-config.xml"));
+        ExtentCucumberFormatter.loadConfig(new File("src/test/resources/ExtentConfig/ReportsConfig.xml"));
 
         // User can add the system information as follows
         ExtentCucumberFormatter.addSystemInfo("Browser Name", "Chrome");

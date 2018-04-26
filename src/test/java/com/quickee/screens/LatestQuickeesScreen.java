@@ -51,5 +51,10 @@ public class LatestQuickeesScreen extends SharedDriver{
 		
 		click(profile);
 	}
+	
+	public void tapPostTab(){
+		click(addNew);
+		
+	}
 
 }

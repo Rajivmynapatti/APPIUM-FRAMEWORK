@@ -55,4 +55,11 @@ public class SettingsScreen extends SharedDriver {
 		click(logOut);
 	}
 
+	public void selectGalleryforImage(){
+		click(gallery);
+		click(moments);
+		click(picture);
+		click(doneLink);
+		
+	}
 }

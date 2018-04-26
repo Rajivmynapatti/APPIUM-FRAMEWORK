@@ -13,6 +13,7 @@ import java.util.Calendar;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.ElementNotVisibleException;
@@ -39,6 +40,7 @@ public class SharedDriver {
     public enum Direction {RIGHT, LEFT, DOWN, UP}
     public static AppiumDriver driver;
     public static URL serverUrl;
+    public Logger log= Logger.getLogger("devpinoyLogger");
 
     public AppiumDriver getAppiumDriver() {
         try {
@@ -55,6 +57,7 @@ public class SharedDriver {
 						e.printStackTrace();
 					}
                         driver = new IOSDriver(serverUrl, capabilities);
+                        log.debug("Server and Capabilities has been initialize successfully.");
                         break;
                     default:
                         throw new IllegalArgumentException(sharedProperties.getPlatformName() + "is unsupported");
@@ -252,8 +255,8 @@ public class SharedDriver {
                 startx = size.width / 3;
                 endx = size.width / 3;
                 starty = (int) (size.height * 0.80);
-                endy = size.height / 2;
-                if (isiOSDevice()){ endy = (int) (endy = size.height / 2 - size.height);}
+                endy = size.height/2;
+              if (isiOSDevice()){ endy = (int) (endy = size.height / 2 - size.height);}
 
                 swipe.press(startx,starty).waitAction(2000).moveTo(endx,endy).release().perform();
                 forceWait(1000);
@@ -273,7 +276,7 @@ public class SharedDriver {
             case UP:
                 startx = size.width / 3;
                 endx = size.width / 3;
-                starty = (int) (size.height * 0.20);
+                starty = (int) (size.height * 0.30);
                 endy = size.height / 2;
 
                 swipe.press(startx,starty).waitAction(2000).moveTo(endx,endy).release().perform();
@@ -336,7 +339,7 @@ public void MethodSwipeUp(int durations){
 		int height=size.getHeight();
 		int width=size.getWidth();
 		 int startx= width/2;
-		int starty=(int)(height * 0.60);
+		int starty=(int)(height * 0.80);
 		
 		int endy=(int)(height *0.10);
 		

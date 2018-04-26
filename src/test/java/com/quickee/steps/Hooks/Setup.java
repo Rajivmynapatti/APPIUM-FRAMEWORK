@@ -12,7 +12,7 @@ import cucumber.api.java.After;
 public class Setup extends SharedDriver{
 
     
-    @AfterMethod
+    @After
 	public static void tearDown(Scenario scenario) throws IOException{
 		
 		WebDriver driver = SharedDriver.driver;
