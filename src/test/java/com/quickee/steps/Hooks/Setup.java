@@ -16,7 +16,7 @@ public class Setup extends SharedDriver{
 	public static void tearDown(Scenario scenario) throws IOException{
 		
 		WebDriver driver = SharedDriver.driver;
-		System.out.println(scenario.isFailed());
+		//System.out.println(scenario.isFailed());
 		if(scenario.isFailed()){
 			
 			byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);

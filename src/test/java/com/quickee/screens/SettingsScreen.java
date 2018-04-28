@@ -45,6 +45,7 @@ public class SettingsScreen extends SharedDriver {
 	public void selectProfilePictureUsingGallery(){
 		click(profilePicture); 
 		click(gallery);
+		WaitforAlert();
 		click(moments);
 		click(picture);
 		click(doneLink);

@@ -5,7 +5,7 @@ Feature: Acceptance Testing is check Login and Logout functionality is working f
   we will do the acceptance testing
 
 	@LoginwithValidUser
-  Scenario: As a User I want to able to Login with valid user details
+  Scenario: As a Logged-out User I want to able to Login into the application so that i can check valid user details
 
   Given Click on Login link on Get Started Screen
   When Enter Email and Password and click on Sign In button

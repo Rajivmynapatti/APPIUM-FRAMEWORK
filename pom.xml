@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.quikee</groupId>
-  <artifactId>Quickee_Appium_Framework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.quikee</groupId>
+	<artifactId>Quickee_Appium_Framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-<properties>
+	<properties>
 		<compiler.version>3.0</compiler.version>
 		<surefire.version>2.18.1</surefire.version>
 		<cucumber-jvm.version>1.2.4</cucumber-jvm.version>
@@ -12,15 +13,15 @@
 		<selenium.version>3.11.0</selenium.version>
 		<picocontainer.version>2.15</picocontainer.version>
 	</properties>
-	
+
 	<reporting>
-		
-			
-		
+
+
+
 	</reporting>
 
 	<build>
-	<plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-report-plugin</artifactId>
@@ -36,9 +37,9 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-	
-	
-		
+
+
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -215,6 +216,11 @@
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>1.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
 		</dependency>
 
 	</dependencies>

@@ -1,5 +1,6 @@
 com/quickee/screens/GetStartedScreen.class
 com/quickee/screens/LoginScreen$page.class
+com/quickee/steps/Create_Quickee.class
 com/quickee/steps/RunCuke.class
 com/quickee/driver/SharedDriver$1.class
 com/quickee/screens/SettingsScreen.class
@@ -11,7 +12,9 @@ com/quickee/steps/Hooks/Setup.class
 com/quickee/screens/LatestQuickeesScreen$page.class
 com/quickee/driver/SharedCapabilities.class
 com/quickee/driver/SharedDriver$Direction.class
+com/quickee/screens/AddDescScreen.class
 com/quickee/screens/LoginScreen.class
 com/quickee/steps/LoginSteps.class
 com/quickee/screens/SettingsScreen$page.class
+com/quickee/screens/Post_A_QuickeeScreen.class
 com/quickee/screens/LatestQuickeesScreen.class

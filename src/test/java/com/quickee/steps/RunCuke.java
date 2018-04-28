@@ -5,14 +5,23 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.mail.MessagingException;
+import javax.mail.internet.AddressException;
+
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import com.cucumber.listener.ExtentCucumberFormatter;
+
+import Utils.MonitoringMail;
+import Utils.TestConfig;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/RunCuke/cucumber.json", "pretty", "html:target/RunCuke/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
-		features="src/test/resources/FeatureFiles", 
-		tags={"@LoginwithValidUser"})
+		features="src/test/resources/FeatureFiles", monochrome=false
+		//tags={"@LoginwithValidUser","@ProfilePicture-Gallery"}
+		)
 
 public class RunCuke extends AbstractTestNGCucumberTests{
 	
@@ -22,9 +31,12 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy_hhmmss");
 		Date curDate = new Date();
 		String strDate = sdf.format(curDate);
-		String fileName = System.getProperty("user.dir")+"/target/Extent_Reports/"+ strDate+".html";
+		//String fileName = System.getProperty("user.dir")+"/target/Extent_Reports/"+ strDate+".html";
+		
+		String fileName = System.getProperty("user.dir")+"/target/Extent_Reports/extent.html";
+		
 		File newFile = new File(fileName);
-		ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,false);
+		ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,true);
 		//static report name
 		//ExtentCucumberFormatter.initiateExtentCucumberFormatter(new File(System.getProperty("user.dir")+"\\ExtenReports\\extentreports.html"),false);
         // Loads the extent config xml to customize on the report.
@@ -41,5 +53,15 @@ public class RunCuke extends AbstractTestNGCucumberTests{
         systemInfo.put("Extent Cucumber Reporter version", "v1.1.0");
         ExtentCucumberFormatter.addSystemInfo(systemInfo);
     }
+	
+	@AfterClass
+	public void sendmail() throws AddressException, MessagingException{
+		
+		MonitoringMail mail = new MonitoringMail();
+		
+		mail.sendMail(TestConfig.server, TestConfig.from , TestConfig.to, TestConfig.messageBody, TestConfig.subject, TestConfig.attachmentPath, TestConfig.attachmentName);
+		
+		
+	}
 	
 }

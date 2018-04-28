@@ -22,6 +22,7 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -368,6 +369,20 @@ public void MethodSwipeUp(int durations){
                 .pollingEvery(1, TimeUnit.SECONDS)
                 .ignoring(org.openqa.selenium.NoSuchElementException.class, ElementNotVisibleException.class)
                 .ignoring(StaleElementReferenceException.class ,org.openqa.selenium.TimeoutException.class);
+    }
+    
+    public void WaitforAlert(){
+    	WebDriverWait wait = new WebDriverWait(driver, 10);
+	    try {
+	        wait.until(ExpectedConditions.alertIsPresent());
+	        driver.switchTo().alert().accept();
+	        
+	        System.out.println("Tap on Ok");
+	        
+	    } catch (Exception e) {
+	        System.err.println("no alert visible after 10 sec.");
+	    }
+    	
     }
    
 
