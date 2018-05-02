@@ -59,7 +59,7 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 		
 		MonitoringMail mail = new MonitoringMail();
 		
-		mail.sendMail(TestConfig.server, TestConfig.from , TestConfig.to, TestConfig.messageBody, TestConfig.subject, TestConfig.attachmentPath, TestConfig.attachmentName);
+		mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, TestConfig.messageBody, TestConfig.attachmentPath, TestConfig.attachmentName);
 		
 		
 	}

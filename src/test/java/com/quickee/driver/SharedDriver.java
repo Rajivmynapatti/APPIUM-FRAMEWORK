@@ -14,6 +14,7 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.ElementNotVisibleException;
@@ -41,7 +42,8 @@ public class SharedDriver {
     public enum Direction {RIGHT, LEFT, DOWN, UP}
     public static AppiumDriver driver;
     public static URL serverUrl;
-    public Logger log= Logger.getLogger("devpinoyLogger");
+    
+    public static Logger log= Logger.getLogger("devpinoyLogger");
 
     public AppiumDriver getAppiumDriver() {
         try {
@@ -58,6 +60,7 @@ public class SharedDriver {
 						e.printStackTrace();
 					}
                         driver = new IOSDriver(serverUrl, capabilities);
+                        
                         log.debug("Server and Capabilities has been initialize successfully.");
                         break;
                     default:

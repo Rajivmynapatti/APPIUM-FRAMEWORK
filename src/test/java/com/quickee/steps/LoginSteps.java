@@ -1,6 +1,9 @@
 package com.quickee.steps;
 
 import java.net.MalformedURLException;
+
+import org.apache.log4j.Logger;
+
 import com.quickee.screens.GetStartedScreen;
 import com.quickee.screens.LatestQuickeesScreen;
 import com.quickee.screens.LoginScreen;
@@ -12,12 +15,15 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 
+
+
 public class LoginSteps extends LoginScreen {
 
 	GetStartedScreen getstartedScreen = new GetStartedScreen();
 	LatestQuickeesScreen latestQuickeesScreen = new LatestQuickeesScreen();
 	ProfileScreen profileScreen = new ProfileScreen();
 	SettingsScreen settingScreen = new SettingsScreen();
+	 
 
 	@Given("^Click on Login link on Get Started Screen$")
 	public void goToLoginScreen(){
