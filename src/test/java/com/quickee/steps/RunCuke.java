@@ -9,12 +9,14 @@ import java.util.Map;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
+import org.openqa.selenium.io.Zip;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import com.cucumber.listener.ExtentCucumberFormatter;
 
 import Utils.MonitoringMail;
 import Utils.TestConfig;
+import Utils.TestUtils;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
@@ -52,10 +54,14 @@ public class RunCuke extends AbstractTestNGCucumberTests{
         systemInfo.put("Cucumber version", "v1.2.3");
         systemInfo.put("Extent Cucumber Reporter version", "v1.1.0");
         ExtentCucumberFormatter.addSystemInfo(systemInfo);
+        
     }
+	
 	
 	@AfterClass
 	public void sendmail() throws AddressException, MessagingException{
+		
+		TestUtils.zip();
 		
 		MonitoringMail mail = new MonitoringMail();
 		

@@ -70,7 +70,9 @@ public class MonitoringMail
 
              BodyPart attachment = new MimeBodyPart();
              DataSource source = new FileDataSource(attachmentPath);
+            // DataSource source2=new FileDataSource(attachmentImagePath);
             attachment.setDataHandler(new DataHandler(source));
+            //attachment.setDataHandler(new DataHandler(source2));
             attachment.setFileName(attachmentName);
              MimeMultipart multipart = new MimeMultipart();
              multipart.addBodyPart(body);
