@@ -1,8 +1,7 @@
-@CreateQuickee
-Feature: Acceptance Testing in order to Create a Quickee
-  In Order to check that the Creation of Qucikee is working fine
-  we will do the acceptance testing
-
+@QuickeePost
+Feature: Acceptance testing of Quickee Post by Creating and Deleting a Quickee post.
+	
+	
 	@CreateQuickeeAnonymously
   Scenario: As a User I want to able to create a Quickee
 

@@ -1,11 +1,9 @@
 @LoginFunctionality
-Feature: Acceptance Testing is check Login and Logout functionality is working fine
-  In Order to check that
-  the Login Functionality is working fine
-  we will do the acceptance testing
+Feature: Acceptance testing for Login functionality with both Valid and Invalid User Credentials.
+
 
 	@LoginwithValidUser
-  Scenario: As a Registered User I want to able to Login into the application so that i can check valid user details
+	Scenario: As a Registered User I want to able to Login into the application so that i can check valid user details
 
   Given Click on Login link on Get Started Screen
   Then Tap on EmailAddress button on Welcome Screen
@@ -16,7 +14,7 @@ Feature: Acceptance Testing is check Login and Logout functionality is working f
   Then User should be successfully LogOut
   
  @LoginwithInvalidUser
- Scenario: As a Registered User i want to check the login functionality by giving an invalid user Credentails.
+	Scenario: As a Registered User i want to check the login functionality by giving an invalid user Credentails.
  
   Given Click on Login link on Get Started Screen
   Then Tap on EmailAddress button on Welcome Screen
