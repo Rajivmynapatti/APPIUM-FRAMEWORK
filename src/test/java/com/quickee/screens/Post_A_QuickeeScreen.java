@@ -1,5 +1,8 @@
 package com.quickee.screens;
 
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import com.quickee.driver.SharedDriver;
@@ -50,10 +53,42 @@ public class Post_A_QuickeeScreen extends SharedDriver {
 	}
 	public void selectStore(){
 		
-		//driver.fi
+		//List<MobileElement> storeList=driver.findElementsByXPath("tesgt");
+		
+		//swipeUntilElementDisplayed(storeList.get(13),Direction.DOWN);
+		//storeList.get(13).click();
+		
 		swipeUntilElementDisplayed(storeName,Direction.DOWN);
 		storeName.click();
 		
 	}
-	
 }
+	/*
+	 custom Location: 
+	 1. Latitude: 37.785834
+	 2. Longitude: -122.406417
+	  */
+
+	/*Listing of all the StoreNames by all id: 
+	1. 1800 Ellis St
+	2. CB2
+	3. Ellis-O'Farrell Garage
+	4. GameStop
+	5. Trader Joe's
+	6. xpath("(//XCUIElementTypeStaticText[@name=\"Powell Street Station\"])[1]")
+	7. Old Navy
+	8. Marshalls
+	9. Crate and Barrel
+	10. Levi's Store Market Street
+	11. Nordstrom San Francisco Centre
+	12. Forever 21
+	13. Westfield San Francisco Centre
+	14. Disney Store
+	15. xpath("(//XCUIElementTypeStaticText[@name=\"Powell Street Station\"])[2]")
+	16. Barneys New York, San Francisco
+	17. Urban Outfitters
+	18. Hotel Union Square
+	19. T-Mobile
+	20. Dirty Habit
+	21. Market St & 4th St         */
+

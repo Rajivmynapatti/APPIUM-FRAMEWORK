@@ -52,8 +52,8 @@ public void isCorrectAppTitleDisplayed(){
 }
 
 public void enterHeadlineAndDescption(){
-	sendKeys("Testing", headlineTextField);
-	sendKeys("This text is for testing purpose", addDescription);
+	sendKeys("Quickee title", headlineTextField);
+	sendKeys("Good Store", addDescription);
 }
 	public void clickCamera(){
 		click(cameraIcon);

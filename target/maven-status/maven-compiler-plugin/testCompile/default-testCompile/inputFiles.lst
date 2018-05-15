@@ -1,5 +1,8 @@
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/Create_Quickee.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/SettingsScreen.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/InvalidLogin.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/Delete_Quickee.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/Qucikee_Badge_screen.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/ProfileScreen.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedDriver.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedCapabilities.java

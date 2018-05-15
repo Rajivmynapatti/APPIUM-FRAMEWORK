@@ -13,6 +13,8 @@ import org.openqa.selenium.io.Zip;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import com.cucumber.listener.ExtentCucumberFormatter;
+import com.relevantcodes.extentreports.DisplayOrder;
+import com.relevantcodes.extentreports.ExtentReports;
 
 import Utils.MonitoringMail;
 import Utils.TestConfig;
@@ -22,13 +24,15 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/RunCuke/cucumber.json", "pretty", "html:target/RunCuke/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
 		features="src/test/resources/FeatureFiles", monochrome=false
-		//tags={"@LoginwithValidUser","@ProfilePicture-Gallery"}
+	//	,tags={"@DeleteQuickee"}
 		)
 
 public class RunCuke extends AbstractTestNGCucumberTests{
 	
+	
 	@BeforeClass
     public static void setup() {
+		
         // Initiates the extent report and generates the output in the output/Run_<unique timestamp>/report.html file by default.
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy_hhmmss");
 		Date curDate = new Date();
@@ -38,7 +42,7 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 		String fileName = System.getProperty("user.dir")+"/target/Extent_Reports/extent.html";
 		
 		File newFile = new File(fileName);
-		ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,true);
+		ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,true, DisplayOrder.OLDEST_FIRST);
 		//static report name
 		//ExtentCucumberFormatter.initiateExtentCucumberFormatter(new File(System.getProperty("user.dir")+"\\ExtenReports\\extentreports.html"),false);
         // Loads the extent config xml to customize on the report.
@@ -55,7 +59,7 @@ public class RunCuke extends AbstractTestNGCucumberTests{
         systemInfo.put("Extent Cucumber Reporter version", "v1.1.0");
         ExtentCucumberFormatter.addSystemInfo(systemInfo);
         
-    }
+	}
 	
 	
 	@AfterClass

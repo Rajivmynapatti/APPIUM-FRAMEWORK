@@ -32,6 +32,12 @@ public class LoginSteps extends LoginScreen {
 		log.debug("Tapped on Login link from getstartedScreen");
 	}
 	
+	@Then("^Tap on EmailAddress button on Welcome Screen$")
+	public void taponEmailAddress(){
+		
+		driver.findElementById("Email Address").click();
+	}
+	
 	@When("^Enter Email and Password and click on Sign In button$")
 	public void enterEmailAndPassword() throws InterruptedException, MalformedURLException{
 		

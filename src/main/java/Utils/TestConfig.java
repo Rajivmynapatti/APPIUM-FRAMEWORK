@@ -6,7 +6,7 @@ public class TestConfig{
 	public static String server="smtp.gmail.com";
 	public static String from = "rajiv.mynapatti@indianic.com";
 	public static String password = "mynapatti$1";
-	public static String[] to ={"rajiv.mynapatti@indianic.com", "anshul.goyal@indianic.com"};
+	public static String[] to ={"rajiv.mynapatti@indianic.com"};
 	public static String  messageBody=("Please find attached to this email a copy of Extent Report.<br><br><br>"
 			
 			 +"\n Please, let us know if you have any question regarding the information provided in the attachment.<br><br>"

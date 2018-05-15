@@ -13,12 +13,38 @@ public class ProfileScreen extends SharedDriver{
 	@iOSFindBy(id="settings icon")
 	private MobileElement settings;
 	
+	@iOSFindBy(xpath="(//XCUIElementTypeButton[@name=\"More icon\"])[1]")
+	private MobileElement More_icon;
+	
+	@iOSFindBy(id="Save Quickee")
+	private MobileElement Save_Quickee;
+	
+	@iOSFindBy(id="Edit")
+	private MobileElement Edit;
+	
+	@iOSFindBy(id="Delete Post")
+	private MobileElement Delete_Post;
+	
+	@iOSFindBy(id="Share Quickee")
+	private MobileElement Share_Quickee;
+	
+	@iOSFindBy(id="Cancel")
+	private MobileElement Cancel_Button;
+	
 	public ProfileScreen(){
 		
 		PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);
 	}
 	
 	public MobileElement goToSettingsIcon(){ return settings; }
+	public MobileElement TapOnMoreicon(){ return More_icon; }
+	public MobileElement TapOnSaveQuickee(){ return Save_Quickee; }
+	public MobileElement TapOnEditQuickee(){ return Edit; }
+	public MobileElement TapOnDeleteQuickeePost(){ return Delete_Post; }
+	public MobileElement TapOnShareQuickeePost(){ return Share_Quickee; }
+	public MobileElement TapOnCancelButton(){ return Cancel_Button; }
+	
+	
 	
 	public void clickOnSettingsIcon(){
 		
@@ -26,4 +52,24 @@ public class ProfileScreen extends SharedDriver{
 		
 	}
 	
+	public void clickOnMoreOptions(){
+		click(More_icon);
+		
+	}
+	
+	public void clickOnSaveQuickee(){
+		click(Save_Quickee);
+	}
+	public void clickOnEditQuickee(){
+		click(Edit);
+	}
+	public void clickOnDeleteQuickee(){
+		click(Delete_Post);
+	}
+	public void clickOnShareQuickee(){
+		click(Share_Quickee);
+	}
+	public void clickOnCancelbutton(){
+		click(Cancel_Button);
+	}
 }
