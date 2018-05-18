@@ -3,12 +3,15 @@ package com.quickee.steps;
 import org.openqa.selenium.Alert;
 
 import com.quickee.screens.LoginScreen;
+import com.quickee.screens.Post_A_QuickeeScreen;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class InvalidLogin extends LoginScreen{
+	
+	Post_A_QuickeeScreen postQuickee = new Post_A_QuickeeScreen();
 	
 	  @Then ("^Tap on SignIn button and get the Text of the alert$")
 	  public void TapOnSignInbutton(){
@@ -32,6 +35,8 @@ public class InvalidLogin extends LoginScreen{
 		 
 		System.out.println("The text present in the alert pop up is : \n" +al.getText());
 		al.accept();
+		driver.findElementById("Back Icon").click();
+		driver.findElementById("Back Icon").click();
 				 
 		 
 	 }

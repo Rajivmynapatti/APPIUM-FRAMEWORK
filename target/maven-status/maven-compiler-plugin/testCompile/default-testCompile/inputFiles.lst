@@ -9,6 +9,7 @@
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/QuickeeWithVideo.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedCapabilities.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/LatestQuickeesScreen.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/Like_Dislike_Comment_Quickee.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedProperties.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/UploadProfilePicture.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/Post_A_QuickeeScreen.java

@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="565668" started-at="2018-05-17T14:11:51Z" finished-at="2018-05-17T14:21:17Z">
+  <suite name="Suite" duration-ms="363313" started-at="2018-05-18T13:20:13Z" finished-at="2018-05-18T13:26:16Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="565668" started-at="2018-05-17T14:11:51Z" finished-at="2018-05-17T14:21:17Z">
+    <test name="Test" duration-ms="363313" started-at="2018-05-18T13:20:13Z" finished-at="2018-05-18T13:26:16Z">
       <class name="com.quickee.steps.RunCuke">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setUpClass" is-config="true" duration-ms="650" started-at="2018-05-17T19:41:51Z" finished-at="2018-05-17T19:41:52Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setUpClass" is-config="true" duration-ms="628" started-at="2018-05-18T18:50:13Z" finished-at="2018-05-18T18:50:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setup" is-config="true" duration-ms="247" started-at="2018-05-17T19:41:52Z" finished-at="2018-05-17T19:41:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setup" is-config="true" duration-ms="482" started-at="2018-05-18T18:50:13Z" finished-at="2018-05-18T18:50:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="398513" started-at="2018-05-17T19:41:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-17T19:48:31Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="203938" started-at="2018-05-18T18:50:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-18T18:53:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Acceptance testing of Quickee Post by Creating and Deleting a Quickee post.]]>
+                <![CDATA[Acceptance Testing of Hitting Like, Dislike and adding Comment to the Quickee Post]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="sendmail()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="sendmail" is-config="true" duration-ms="165812" started-at="2018-05-17T19:48:31Z" finished-at="2018-05-17T19:51:17Z">
+        <test-method status="PASS" signature="sendmail()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="sendmail" is-config="true" duration-ms="157671" started-at="2018-05-18T18:53:38Z" finished-at="2018-05-18T18:56:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendmail -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="tearDownClass" is-config="true" duration-ms="237" started-at="2018-05-17T19:51:17Z" finished-at="2018-05-17T19:51:17Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="tearDownClass" is-config="true" duration-ms="297" started-at="2018-05-18T18:56:16Z" finished-at="2018-05-18T18:56:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

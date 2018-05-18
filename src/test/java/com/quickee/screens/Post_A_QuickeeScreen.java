@@ -43,6 +43,7 @@ public class Post_A_QuickeeScreen extends SharedDriver {
 	public MobileElement QuickeeWithUserName(){return QuickeeWithUsername;}
 	public MobileElement QuickeeWithAnonymousName(){return QuickeeWithAnonymousname;}
 	public MobileElement TapNextbutton(){return NextButton;}
+	public MobileElement TapBackbutton(){return BackButton;}
 	public MobileElement Storename(){return storeName;}
 	
 	public void postAnomously(){
@@ -55,6 +56,10 @@ public class Post_A_QuickeeScreen extends SharedDriver {
 	
 	public void tapNext(){
 		click(NextButton);
+	}
+	
+	public void tapBack(){
+		click(BackButton);
 	}
 	public void selectStore(){
 		

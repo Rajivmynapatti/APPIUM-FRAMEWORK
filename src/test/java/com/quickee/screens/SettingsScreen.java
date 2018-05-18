@@ -3,6 +3,7 @@ package com.quickee.screens;
 import org.openqa.selenium.support.PageFactory;
 
 import com.quickee.driver.SharedDriver;
+import com.quickee.driver.SharedDriver.Direction;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -42,6 +43,24 @@ public class SettingsScreen extends SharedDriver {
 	@iOSFindBy(id="Log Out")
 	private MobileElement logOut;
 	
+	@iOSFindBy(id="LikeNormal0")
+	private MobileElement Likebutton;
+	
+	@iOSFindBy(id="LikeSelected0")
+	private MobileElement LikeSelected;
+	
+	@iOSFindBy(id="DislikeNormal0")
+	private MobileElement Dislikebutton;
+	
+	@iOSFindBy(id="DislikeSelected0")
+	private MobileElement DislikeSelected;
+	
+	@iOSFindBy(id="ButtonAddToThisQuickee")
+	private MobileElement Addtothisquickee;
+	
+	@iOSFindBy(id="ButtonComment0")
+	private MobileElement Commentbutton;
+	
 	public SettingsScreen(){
 		
 		PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);
@@ -55,6 +74,12 @@ public class SettingsScreen extends SharedDriver {
 	public MobileElement logOutTab(){ return logOut; }
 	public MobileElement choose_Picture(){ return Choose; }
 	public MobileElement choose_Video(){return Videos; }
+	public MobileElement Likebutton(){return Likebutton;}
+	public MobileElement LikeSelected(){return LikeSelected;}
+	public MobileElement dislikebutton(){return Dislikebutton;}
+	public MobileElement dislikeSelected(){return DislikeSelected;}
+	public MobileElement AddToThisQuickee(){return Addtothisquickee; }
+	public MobileElement Commentbutton(){return Commentbutton;}
 	
 	public void selectProfilePictureUsingGallery(){
 		click(profilePicture); 
@@ -91,12 +116,41 @@ public class SettingsScreen extends SharedDriver {
 		
 	}
 	public void EditGalleryforImage(){
+
 		click(gallery);
 	 	WaitforAlert();
 		click(moments);
 		fluentWait();
-		click(picture);
+		click(picture1);
 		click(Choose);
 		
 	}
+	public void HitLike(){
+		click(Likebutton);
+	}
+	public void HitDislike(){
+		click(Dislikebutton);
+	}
+	public void HitLike_Selected(){
+		click(LikeSelected);
+	}
+	public void HitDislike_Selected(){
+		click(DislikeSelected);
+	}
+	public void AddComment(){
+		click(Commentbutton);
+	}
+	public void AddRatingToQuickees(){
+		click(Addtothisquickee);
+	}
+	
+	public void SwipeToLogout(){
+		swipeUntilElementDisplayed(logOut, Direction.DOWN);
+	}
+	
+	public void SwipeToPost2(){
+		MethodSwipeUp(2000);
+		
+	}
+	
 }

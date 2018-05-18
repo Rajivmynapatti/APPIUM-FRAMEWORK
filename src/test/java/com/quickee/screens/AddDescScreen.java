@@ -17,21 +17,21 @@ public class AddDescScreen extends SharedDriver{
 	
 	@iOSFindBy(xpath="*//[@name=\"Post a Quickee\"]")
 	private MobileElement appTitle;
-	
+	/*
 	@iOSFindBy(id="ButtonBackToSelectLocation")
-	private MobileElement backButton;
+	private MobileElement backButton;*/
 	
 	@iOSFindBy(id="Placeholder-camera")
 	private MobileElement placeholderCamera;
 	
-	@iOSFindBy(id="ButtonNextToPreview")
+	/*@iOSFindBy(id="ButtonNextToPreview")
 	private MobileElement nextToPreviewButton;
 	
 	@iOSFindBy(id="ButtonNextToRateQuickee")
 	private MobileElement nextToRateButton;
 	
 	@iOSFindBy(id="ButtonNextToPostQuickee")
-	private MobileElement nextToPostButton;
+	private MobileElement nextToPostButton;*/
 	
 	@iOSFindBy(id="ButtonGIPHY")
 	private MobileElement giphyIcon;
@@ -52,8 +52,8 @@ public class AddDescScreen extends SharedDriver{
 	}
 public MobileElement addHeadline(){return headlineTextField;}
 public MobileElement addDesc(){return addDescription;}
-public MobileElement NextButton(){return nextToRateButton;}	
-public MobileElement NextPostbutton(){return nextToPostButton;}
+/*public MobileElement NextButton(){return nextToRateButton;}	
+public MobileElement NextPostbutton(){return nextToPostButton;}*/
 
 public void isCorrectAppTitleDisplayed(){
 		
@@ -75,7 +75,7 @@ public void clearHeadlineAndDescription(){
 		click(cameraIcon);
 		
 	}
-	public void clickNextToRate(){
+	/*public void clickNextToRate(){
 		click(nextToRateButton);
 	}
 	
@@ -86,7 +86,7 @@ public void clearHeadlineAndDescription(){
 	public void clickNextToPost(){
 		click(nextToPostButton);
 		
-	}
+	}*/
 	public void doubleTap(){
 		TouchActions action = new TouchActions(driver);
 		//action.doubleTap(addDescription);
@@ -94,9 +94,8 @@ public void clearHeadlineAndDescription(){
 		action.longPress(addDescription).sendKeys(Keys.DELETE);
 	}
 	public void editTitleAndDescription(){
-		sendKeys("Edit title", headlineTextField);
-		sendKeys("Edit Description", addDescription);
-	//sendKeysClearText("Edit title", headlineTextField);
+	
+	sendKeysClearText("Edit title", headlineTextField);
 	//sendKeysClearText("Edit Description", addDescription);
 	
 	}

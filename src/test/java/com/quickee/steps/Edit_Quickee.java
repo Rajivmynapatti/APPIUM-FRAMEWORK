@@ -1,16 +1,11 @@
 package com.quickee.steps;
 
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.touch.TouchActions;
-
 import com.quickee.screens.AddDescScreen;
 import com.quickee.screens.ProfileScreen;
 import com.quickee.screens.SettingsScreen;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
-import io.appium.java_client.MobileElement;
 
 
 
@@ -23,9 +18,11 @@ public class Edit_Quickee extends ProfileScreen{
 	public void SelectEdit(){
 		
 			fluentWait();
-			
+	
+	//Tap on MoreOption of the very first quickee post		
 			clickOnMoreOptions();
-			
+
+	//Select Edit from the Action sheet		
 			clickOnEditQuickee();
 		
 	}
@@ -34,8 +31,13 @@ public class Edit_Quickee extends ProfileScreen{
 	  public void SelectSave(){
 		
 		  //Edit headline and description
-		  QuickeeDesc.clearHeadlineAndDescription();
-		   QuickeeDesc.editTitleAndDescription();
+		  	QuickeeDesc.editTitleAndDescription();
+		   
+		 //Tap on Camera Icon
+		   QuickeeDesc.clickCamera();
+		   
+		//Select one image to add in the quickee post
+		   settingScreen.EditGalleryforImage();
 
 		  		
 		 //Tap on save button to save edited quickee post

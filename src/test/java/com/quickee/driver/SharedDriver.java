@@ -345,9 +345,9 @@ public void MethodSwipeUp(int durations){
 		int height=size.getHeight();
 		int width=size.getWidth();
 		 int startx= width/2;
-		int starty=(int)(height * 0.80);
+		int starty=(int)(height * 0.90);
 		
-		int endy=(int)(height *0.10);
+		int endy=(int)(height *0.60);
 		
 		driver.swipe(startx, starty, startx, endy, durations);
 		
