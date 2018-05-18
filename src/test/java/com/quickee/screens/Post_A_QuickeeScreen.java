@@ -17,17 +17,22 @@ public class Post_A_QuickeeScreen extends SharedDriver {
 	@iOSFindBy(xpath="//*[@name=\"Post a Quickee\"]")
 	private MobileElement ScreenTitle;
 	
-	@iOSFindBy(xpath="//*[@name=\"username normal\"]")
+	@iOSFindBy(id="ButtonUserName")
 	private MobileElement QuickeeWithUsername;
 	
-	@iOSFindBy(xpath="//*[@name=\"anonymously normal\"]")
+	@iOSFindBy(id="ButtonAnonymously")
 	private MobileElement QuickeeWithAnonymousname;
 	
-	@iOSFindBy(id="Next")
+	@iOSFindBy(id="ButtonNext")
 	private MobileElement NextButton;
+	
+	@iOSFindBy(id="ButtonBack")
+	private MobileElement BackButton;
 	
 	@iOSFindBy(id="Disney Store")
 	private MobileElement storeName;
+	
+	
 	
 	
 	public Post_A_QuickeeScreen() {

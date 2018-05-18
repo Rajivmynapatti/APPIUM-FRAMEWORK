@@ -24,7 +24,7 @@ public class GetStartedScreen extends SharedDriver{
 	@iOSFindBy(id="What’s Quickee’s purpose?")
 	private MobileElement what_Quickee_Response_link;
 	
-	@iOSFindBy(id="Login") 
+	@iOSFindBy(id="ButtonLogin") 
 	private MobileElement login;
 	
 	

@@ -15,16 +15,16 @@ public class LoginScreen extends SharedDriver{
 	private String autoTestEmailPassword = "test123";
 	
 	
-	private String autoTestInvalidUsername="test1222";
+	private String autoTestInvalidUsername="test1222@gmail.com";
 	private String autoTestInvalidPassword="test123";
 	
 	@iOSFindBy(id="Back Icon")
 	private MobileElement backButton;
 	
-	@iOSFindBy(xpath="//*[@value=\"Email\"]")	
+	@iOSFindBy(id="TextFieldEmail")	
 	private MobileElement email;
 	
-	@iOSFindBy(xpath="//*[@value=\"Password\"]")	
+	@iOSFindBy(id="TextFieldPassword")	
 	private MobileElement password;
 	
 	@iOSFindBy(id="Eye Icon")
@@ -33,7 +33,7 @@ public class LoginScreen extends SharedDriver{
 	@iOSFindBy(id="Forgot your password?")
 	private MobileElement forgotPassword;
 	
-	@iOSFindBy(id="btnSignInLoginWithEmail")
+	@iOSFindBy(id="ButtonSignIn")
 	private MobileElement signInButton;
 	
 	@iOSFindBy(id="Facebook")
@@ -96,6 +96,9 @@ public class LoginScreen extends SharedDriver{
 		
 		click(signInButton); 
 		
+	}
+	public void clearEmailTextField(){
+		clear(email);
 	}
 
 }

@@ -13,22 +13,22 @@ public class Qucikee_Badge_screen extends SharedDriver {
 	
 public String quickeeTitle = "Quickee Badge";
 	
-	@iOSFindBy(id="Back Icon")
+	@iOSFindBy(id="ButtonBackToRateQuickee")
 	private MobileElement BackButton;
 	
 	@iOSFindBy(xpath="//XCUIElementTypeStaticText[@name=\"Quickee Badge\"]")
 	private MobileElement appTitle;
 	
-	@iOSFindBy(id="love normal")
+	@iOSFindBy(id="ButtonLove")
 	private MobileElement GiveLovetoQuickee;
 	
-	@iOSFindBy(id="pass normal")
+	@iOSFindBy(id="ButtonPass")
 	private MobileElement GivePasstoQuickee;
 	
-	@iOSFindBy(id="Nolove normal")
+	@iOSFindBy(id="ButtonNoLove")
 	private MobileElement GiveNoLovetoQuickee;
 	
-	@iOSFindBy(id="Post your Quickee") 
+	@iOSFindBy(id="ButtonPostYourQuickee") 
 	private MobileElement PostQuickeeButton;
 	
 	

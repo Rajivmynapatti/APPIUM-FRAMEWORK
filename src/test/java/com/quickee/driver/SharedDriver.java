@@ -10,6 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +19,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -386,6 +388,30 @@ public void MethodSwipeUp(int durations){
 	        System.err.println("no alert visible after 10 sec.");
 	    }
     	
+    }
+    public void clearTextField(MobileElement element) {
+        double x = element.getLocation().getX() + element.getSize().width - 5;
+        double y = element.getLocation().getY() + ((double) element.getSize().height / 3);
+        preciseTap(x, y, 0.1, 1);
+        while (!element.getText().isEmpty()) {
+            pressDeleteKey();
+        }
+    }
+     
+    public void preciseTap(double x, double y, double duration, int touchCount) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        HashMap<String, Double> tapObject = new HashMap<String, Double>();
+        tapObject.put("x", x);
+        tapObject.put("y", y);
+        tapObject.put("touchCount", (double)touchCount);
+        tapObject.put("duration", duration);
+        js.executeScript("mobile: tap", tapObject);
+    }
+     
+    public void pressDeleteKey() {
+        HashMap swipeObject = new HashMap();
+        swipeObject.put("keycode", 67);
+        ((JavascriptExecutor) driver).executeScript("mobile: keyevent", swipeObject);
     }
    
 

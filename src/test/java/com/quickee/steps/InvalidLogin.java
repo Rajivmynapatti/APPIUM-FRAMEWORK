@@ -10,6 +10,16 @@ import cucumber.api.java.en.When;
 
 public class InvalidLogin extends LoginScreen{
 	
+	  @Then ("^Tap on SignIn button and get the Text of the alert$")
+	  public void TapOnSignInbutton(){
+		  clickSignInButton();
+		  
+		  Alert al=driver.switchTo().alert();
+		  System.out.println("The text present in the alert pop up is : \n" +al.getText());
+		  al.accept();
+	  }
+	
+	
 	 @When ("^Enter both Invalid Email and Password and click on Sign In button$")
 	 public void EnterInvalidCredentials(){
 		 enterInvalidEmail(getAutoTestInvalidEmailUsername());

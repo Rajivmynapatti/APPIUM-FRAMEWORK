@@ -4,7 +4,9 @@
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/Delete_Quickee.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/Qucikee_Badge_screen.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/ProfileScreen.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/Edit_Quickee.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedDriver.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/QuickeeWithVideo.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedCapabilities.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/LatestQuickeesScreen.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/driver/SharedProperties.java
@@ -14,5 +16,6 @@
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/GetStartedScreen.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/RunCuke.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/LoginSteps.java
+/Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/QuickeeWithImage.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/screens/AddDescScreen.java
 /Users/indianic/Documents/workspace/Quickee_Appium_Framework/src/test/java/com/quickee/steps/Hooks/Setup.java

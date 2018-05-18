@@ -18,6 +18,7 @@ Feature: Acceptance testing for Login functionality with both Valid and Invalid 
  
   Given Click on Login link on Get Started Screen
   Then Tap on EmailAddress button on Welcome Screen
+  Then Tap on SignIn button and get the Text of the alert
   When Enter both Invalid Email and Password and click on Sign In button
   Then Get the alert text and tap on Ok button to accept the alert
  

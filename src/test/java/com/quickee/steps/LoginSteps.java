@@ -35,7 +35,7 @@ public class LoginSteps extends LoginScreen {
 	@Then("^Tap on EmailAddress button on Welcome Screen$")
 	public void taponEmailAddress(){
 		
-		driver.findElementById("Email Address").click();
+		driver.findElementById("ButtonEmailAddress").click();
 	}
 	
 	@When("^Enter Email and Password and click on Sign In button$")

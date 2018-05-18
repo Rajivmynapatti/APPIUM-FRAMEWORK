@@ -72,22 +72,19 @@ public class Create_Quickee extends LoginScreen {
 	    public void Add_Title_and_Description_to_that_selected_store_and_tap_on_Next_button(){
 	    
 	    	 QuickeeDesc.enterHeadlineAndDescption();
-	   	  //  QuickeeDesc.clickCamera();
-	   	   
-	   	   // WaitforAlert();
-	   	 //   settingScreen.selectGalleryforImage();
-	   	    
-	   	    
+	   	  
 	   	    //After entering the Headline and Description we will be landed to preview screen
-	   	    postQuickee.tapNext();
+	   	 //   postQuickee.tapNext();
 	   	    
 	    
 	    }
 	    @Then ("^User will get the preview screen and tap on next button$")
 	    public void User_will_get_the_preview_screen_and_tap_on_next_button(){
 	    	
+	    	postQuickee.tapNext();
+	    	
 	    	 //Now user will redirect to Post Preview screen
-		    postQuickee.tapNext();
+	    	postQuickee.tapNext();
 	    }
 	    
 	    @Then ("^User will provide rating to the quickee$")
@@ -131,7 +128,7 @@ public class Create_Quickee extends LoginScreen {
 	    	 act.press(tapAt,yAxis).release().perform();*/
 	    
 	    //After giving ratings it will tap on Next button and user will redirected to Quickee Badge screen.  
-	    	  	postQuickee.tapNext();
+	    	  postQuickee.tapNext();
 	    	  	fluentWait();
 	    	
 	    

@@ -13,15 +13,22 @@ public class ProfileScreen extends SharedDriver{
 	@iOSFindBy(id="settings icon")
 	private MobileElement settings;
 	
-	@iOSFindBy(xpath="(//XCUIElementTypeButton[@name=\"More icon\"])[1]")
+	@iOSFindBy(id="ButtonMore0")
 	private MobileElement More_icon;
 	
+	//Save quickee from action sheet to save/give likes to the quickee
 	@iOSFindBy(id="Save Quickee")
 	private MobileElement Save_Quickee;
-	
+
+	//Edit quickee from action sheet
 	@iOSFindBy(id="Edit")
 	private MobileElement Edit;
+
+	//Save button from Edit quickee screen to save edited quickee	
+	@iOSFindBy(id="ButtonSave")
+	private MobileElement SaveEditedQuickee;
 	
+	//Delete quickee
 	@iOSFindBy(id="Delete Post")
 	private MobileElement Delete_Post;
 	
@@ -43,7 +50,7 @@ public class ProfileScreen extends SharedDriver{
 	public MobileElement TapOnDeleteQuickeePost(){ return Delete_Post; }
 	public MobileElement TapOnShareQuickeePost(){ return Share_Quickee; }
 	public MobileElement TapOnCancelButton(){ return Cancel_Button; }
-	
+	public MobileElement TapOnSaveEditedQuickeeButton(){return SaveEditedQuickee;}
 	
 	
 	public void clickOnSettingsIcon(){
@@ -71,5 +78,9 @@ public class ProfileScreen extends SharedDriver{
 	}
 	public void clickOnCancelbutton(){
 		click(Cancel_Button);
+	}
+	
+	public void clicktoSaveEditedQuickee(){
+		click(SaveEditedQuickee);
 	}
 }

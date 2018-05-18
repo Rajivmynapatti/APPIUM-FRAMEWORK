@@ -18,14 +18,26 @@ public class SettingsScreen extends SharedDriver {
 	@iOSFindBy(xpath="//*[@name=\"Use Gallery\"]")
 	private MobileElement gallery;
 	
-	@iOSFindBy(xpath="//*[@name=\"Moments\"]")
+	@iOSFindBy(xpath="//*[@value=\"Moments\"]")
 	private MobileElement moments;
 	
-	@iOSFindBy(id="Photo, Landscape, August 09, 2012, 12:22 AM")
+	@iOSFindBy(xpath="//*[@value=\"Videos\"]")
+	private MobileElement Videos;
+	
+	@iOSFindBy(xpath="//XCUIElementTypeCollectionView[@name=\"PhotosGridView\"]/XCUIElementTypeCell/XCUIElementTypeOther")
+	private MobileElement SelectVideo;
+	
+	@iOSFindBy(xpath="//XCUIElementTypeCollectionView[@name=\"PhotosGridView\"]/XCUIElementTypeCell[3]/XCUIElementTypeOther")
+	private MobileElement picture1;
+	
+	@iOSFindBy(id="Photo, Portrait, August 09, 2012, 2:59 AM")
 	private MobileElement picture;
 	
 	@iOSFindBy(id="Done")
 	private MobileElement doneLink;
+	
+	@iOSFindBy(id="Choose")
+	private MobileElement Choose;
 	
 	@iOSFindBy(id="Log Out")
 	private MobileElement logOut;
@@ -38,14 +50,17 @@ public class SettingsScreen extends SharedDriver {
 	public MobileElement changePicture(){ return profilePicture; }
 	public MobileElement useGallery(){ return gallery; }
 	public MobileElement momentSection(){ return moments; } 
-	public MobileElement choosePicture(){ return picture; }
+	public MobileElement choosePicture(){ return picture1; }
 	public MobileElement donePicture(){ return doneLink; }
 	public MobileElement logOutTab(){ return logOut; }
+	public MobileElement choose_Picture(){ return Choose; }
+	public MobileElement choose_Video(){return Videos; }
 	
 	public void selectProfilePictureUsingGallery(){
 		click(profilePicture); 
 		click(gallery);
 		WaitforAlert();
+		fluentWait();
 		click(moments);
 		click(picture);
 		click(doneLink);
@@ -58,9 +73,30 @@ public class SettingsScreen extends SharedDriver {
 
 	public void selectGalleryforImage(){
 		click(gallery);
+	 	WaitforAlert();
 		click(moments);
+		fluentWait();
+		click(picture1);
+		click(Choose);
+		
+	}
+	public void selectGalleryforVideo() throws InterruptedException{
+		click(gallery);
+	 	WaitforAlert();
+		click(Videos);
+		fluentWait();
+		click(SelectVideo);
+		Thread.sleep(50000L);
+		click(Choose);
+		
+	}
+	public void EditGalleryforImage(){
+		click(gallery);
+	 	WaitforAlert();
+		click(moments);
+		fluentWait();
 		click(picture);
-		click(doneLink);
+		click(Choose);
 		
 	}
 }

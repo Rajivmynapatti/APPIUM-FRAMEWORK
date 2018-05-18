@@ -9,12 +9,11 @@ import java.util.Map;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
-import org.openqa.selenium.io.Zip;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
 import com.cucumber.listener.ExtentCucumberFormatter;
 import com.relevantcodes.extentreports.DisplayOrder;
-import com.relevantcodes.extentreports.ExtentReports;
 
 import Utils.MonitoringMail;
 import Utils.TestConfig;
@@ -24,7 +23,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/RunCuke/cucumber.json", "pretty", "html:target/RunCuke/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
 		features="src/test/resources/FeatureFiles", monochrome=false
-	//	,tags={"@DeleteQuickee"}
+		,tags={"@CreateQuickeeWithVideo"}
 		)
 
 public class RunCuke extends AbstractTestNGCucumberTests{
