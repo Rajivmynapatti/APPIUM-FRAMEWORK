@@ -17,9 +17,7 @@ public class InvalidLogin extends LoginScreen{
 	  public void TapOnSignInbutton(){
 		  clickSignInButton();
 		  
-		  Alert al=driver.switchTo().alert();
-		  System.out.println("The text present in the alert pop up is : \n" +al.getText());
-		  al.accept();
+		  GetAlertTextAndExceptIt();
 	  }
 	
 	
@@ -31,10 +29,8 @@ public class InvalidLogin extends LoginScreen{
 	 }
 	 @Then ("^Get the alert text and tap on Ok button to accept the alert$")
 	 public void SwitchAlertAndGetText(){
-		 Alert al=driver.switchTo().alert();
+		 GetAlertTextAndExceptIt();
 		 
-		System.out.println("The text present in the alert pop up is : \n" +al.getText());
-		al.accept();
 		driver.findElementById("Back Icon").click();
 		driver.findElementById("Back Icon").click();
 				 

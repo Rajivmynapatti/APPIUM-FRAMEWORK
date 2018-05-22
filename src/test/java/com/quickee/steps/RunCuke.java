@@ -23,7 +23,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/RunCuke/cucumber.json", "pretty", "html:target/RunCuke/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
 		features="src/test/resources/FeatureFiles", monochrome=false
-		,tags={"@HitLike&DislikeToQuickee"}
+		//,tags={"@AddPostToFavouriteList"}
 		)
 
 public class RunCuke extends AbstractTestNGCucumberTests{

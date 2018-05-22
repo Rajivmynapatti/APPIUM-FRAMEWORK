@@ -17,6 +17,21 @@
 # Then User should be successfully LogOut
   
   
+ # @EditProfile
+ # Feature: Acceptance testing of EditProfile so that user can able Edit His/Her Profile
+ # Scenario: As a Registered User, i want to go to Profile screen so that user can change his/her profile details.
+  
+ # Given Click on Login link on Get Started Screen
+#  Then Tap on EmailAddress button on Welcome Screen
+#  When Enter Email and Password and click on Sign In button
+#  And Click on Profile link from Latest Quickees Screen
+#  And Click on Settings icon from profile Screen
+#  And Click on 
+#  And Click on LogOut tab
+#  Then User should be successfully LogOut
+  
+  
+  
   
   
   

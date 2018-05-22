@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.JavascriptExecutor;
@@ -345,9 +346,9 @@ public void MethodSwipeUp(int durations){
 		int height=size.getHeight();
 		int width=size.getWidth();
 		 int startx= width/2;
-		int starty=(int)(height * 0.90);
+		int starty=(int)(height * 0.45);
 		
-		int endy=(int)(height *0.60);
+		int endy=(int)(height *0.40);
 		
 		driver.swipe(startx, starty, startx, endy, durations);
 		
@@ -387,6 +388,14 @@ public void MethodSwipeUp(int durations){
 	    } catch (Exception e) {
 	        System.err.println("no alert visible after 10 sec.");
 	    }
+    	
+    }
+    
+    public void GetAlertTextAndExceptIt(){
+    	
+    	 Alert al=driver.switchTo().alert();
+		  System.out.println("The text present in the alert pop up is : \n" +al.getText());
+		  al.accept();
     	
     }
     public void clearTextField(MobileElement element) {

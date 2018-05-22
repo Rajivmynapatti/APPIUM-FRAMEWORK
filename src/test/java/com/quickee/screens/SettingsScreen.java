@@ -61,6 +61,12 @@ public class SettingsScreen extends SharedDriver {
 	@iOSFindBy(id="ButtonComment0")
 	private MobileElement Commentbutton;
 	
+	@iOSFindBy(id="ButtonFavouriteQuickeeCount")
+	private MobileElement LoveIcon;
+	
+	@iOSFindBy(id="ButtonNotification")
+	private MobileElement NotificationIcon;
+	
 	public SettingsScreen(){
 		
 		PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);
@@ -80,6 +86,9 @@ public class SettingsScreen extends SharedDriver {
 	public MobileElement dislikeSelected(){return DislikeSelected;}
 	public MobileElement AddToThisQuickee(){return Addtothisquickee; }
 	public MobileElement Commentbutton(){return Commentbutton;}
+	
+	public MobileElement TapLoveIcon(){return LoveIcon; }
+	public MobileElement NotificationIcon(){return NotificationIcon;}
 	
 	public void selectProfilePictureUsingGallery(){
 		click(profilePicture); 
@@ -137,7 +146,7 @@ public class SettingsScreen extends SharedDriver {
 	public void HitDislike_Selected(){
 		click(DislikeSelected);
 	}
-	public void AddComment(){
+	public void AddCommentIcon(){
 		click(Commentbutton);
 	}
 	public void AddRatingToQuickees(){
@@ -151,6 +160,10 @@ public class SettingsScreen extends SharedDriver {
 	public void SwipeToPost2(){
 		MethodSwipeUp(2000);
 		
+	}
+	
+	public void TapOnLoveIcon(){
+		click(LoveIcon);
 	}
 	
 }

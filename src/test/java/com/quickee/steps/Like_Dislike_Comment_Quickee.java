@@ -8,7 +8,7 @@ public class Like_Dislike_Comment_Quickee extends SettingsScreen {
 	
 	
 	@And ("^Tap on Like/Dislike/Comment button to Like/Dislike/Add Comment a Quickee post$")
-	public void Hitting(){
+	public void Hitting_Like_Dislike(){
 	
 		//Swipe untill the LIKE, DISLIKE, COMMENT BUTTON is visible and can be handle
 			SwipeToPost2();

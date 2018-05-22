@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="363313" started-at="2018-05-18T13:20:13Z" finished-at="2018-05-18T13:26:16Z">
+  <suite name="Suite" duration-ms="1378733" started-at="2018-05-22T06:29:35Z" finished-at="2018-05-22T06:52:33Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="363313" started-at="2018-05-18T13:20:13Z" finished-at="2018-05-18T13:26:16Z">
+    <test name="Test" duration-ms="1378733" started-at="2018-05-22T06:29:35Z" finished-at="2018-05-22T06:52:33Z">
       <class name="com.quickee.steps.RunCuke">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setUpClass" is-config="true" duration-ms="628" started-at="2018-05-18T18:50:13Z" finished-at="2018-05-18T18:50:13Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setUpClass" is-config="true" duration-ms="754" started-at="2018-05-22T11:59:35Z" finished-at="2018-05-22T11:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setup" is-config="true" duration-ms="482" started-at="2018-05-18T18:50:13Z" finished-at="2018-05-18T18:50:14Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="setup" is-config="true" duration-ms="991" started-at="2018-05-22T11:59:35Z" finished-at="2018-05-22T11:59:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="203938" started-at="2018-05-18T18:50:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-18T18:53:38Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="155232" started-at="2018-05-22T11:59:37Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T12:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance testing for Login functionality with both Valid and Invalid User Credentials.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="439103" started-at="2018-05-22T12:02:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T12:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance testing of Quickee Post by Creating, Editing and Deleting a Quickee post.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="355823" started-at="2018-05-22T12:09:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T12:15:27Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +51,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="sendmail()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="sendmail" is-config="true" duration-ms="157671" started-at="2018-05-18T18:53:38Z" finished-at="2018-05-18T18:56:16Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="feature" duration-ms="386963" started-at="2018-05-22T12:15:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T12:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance testing of Favourites post, so that a User can able to Add Quickee Post to his/her favourite List]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="sendmail()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="sendmail" is-config="true" duration-ms="39335" started-at="2018-05-22T12:21:54Z" finished-at="2018-05-22T12:22:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendmail -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="tearDownClass" is-config="true" duration-ms="297" started-at="2018-05-18T18:56:16Z" finished-at="2018-05-18T18:56:16Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.quickee.steps.RunCuke@2d554825]" name="tearDownClass" is-config="true" duration-ms="158" started-at="2018-05-22T12:22:33Z" finished-at="2018-05-22T12:22:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
