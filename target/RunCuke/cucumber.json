@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 826164,
+              "duration": 787168,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22130910635,
+              "duration": 28849746956,
               "status": "passed"
             },
             "line": 8,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1354062240,
+              "duration": 1413281896,
               "status": "passed"
             },
             "line": 9,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 11659633122,
+              "duration": 12079408999,
               "status": "passed"
             },
             "line": 10,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 45483700680,
+              "duration": 33130905436,
               "status": "passed"
             },
             "line": 11,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 34672409233,
+              "duration": 34962582968,
               "status": "passed"
             },
             "line": 12,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 14623103719,
+              "duration": 15153004820,
               "status": "passed"
             },
             "line": 13,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 92880,
+              "duration": 114776,
               "status": "passed"
             },
             "line": 14,
@@ -121,7 +121,7 @@
         "after": [
           {
             "result": {
-              "duration": 362856,
+              "duration": 16107434,
               "status": "passed"
             },
             "match": {
@@ -134,7 +134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2183898956,
+              "duration": 2302321780,
               "status": "passed"
             },
             "line": 19,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 1059478454,
+              "duration": 1081028003,
               "status": "passed"
             },
             "line": 20,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 5110510937,
+              "duration": 5524804443,
               "status": "passed"
             },
             "line": 21,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 10720175583,
+              "duration": 9985709068,
               "status": "passed"
             },
             "line": 22,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 5304081127,
+              "duration": 6156217570,
               "status": "passed"
             },
             "line": 23,
@@ -294,7 +294,7 @@
         "after": [
           {
             "result": {
-              "duration": 1009473,
+              "duration": 1345947,
               "status": "passed"
             },
             "match": {
@@ -307,7 +307,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2284666141,
+              "duration": 2427176287,
               "status": "passed"
             },
             "line": 27,
@@ -319,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 1119512171,
+              "duration": 1095239540,
               "status": "passed"
             },
             "line": 28,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 10553034275,
+              "duration": 9668975514,
               "status": "passed"
             },
             "line": 29,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 33909026993,
+              "duration": 34292294885,
               "status": "passed"
             },
             "line": 30,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 5548024938,
+              "duration": 6103873369,
               "status": "passed"
             },
             "line": 31,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 1899282649,
+              "duration": 1962204119,
               "status": "passed"
             },
             "line": 32,
@@ -379,7 +379,7 @@
           },
           {
             "result": {
-              "duration": 31484196951,
+              "duration": 27968123435,
               "status": "passed"
             },
             "line": 33,
@@ -391,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 14539310813,
+              "duration": 13659076542,
               "status": "passed"
             },
             "line": 34,
@@ -403,7 +403,7 @@
           },
           {
             "result": {
-              "duration": 20235295157,
+              "duration": 20520755193,
               "status": "passed"
             },
             "line": 35,
@@ -415,7 +415,7 @@
           },
           {
             "result": {
-              "duration": 6537211768,
+              "duration": 6196241624,
               "status": "passed"
             },
             "line": 36,
@@ -427,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 3089738978,
+              "duration": 2820755588,
               "status": "passed"
             },
             "line": 37,
@@ -439,7 +439,7 @@
           },
           {
             "result": {
-              "duration": 6832248905,
+              "duration": 6060903838,
               "status": "passed"
             },
             "line": 38,
@@ -451,7 +451,7 @@
           },
           {
             "result": {
-              "duration": 45265671109,
+              "duration": 47070707407,
               "status": "passed"
             },
             "line": 39,
@@ -463,7 +463,7 @@
           },
           {
             "result": {
-              "duration": 35891627604,
+              "duration": 36355021974,
               "status": "passed"
             },
             "line": 40,
@@ -475,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 14076610233,
+              "duration": 14296630845,
               "status": "passed"
             },
             "line": 41,
@@ -487,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 89140,
+              "duration": 81580,
               "status": "passed"
             },
             "line": 42,
@@ -587,7 +587,7 @@
         "after": [
           {
             "result": {
-              "duration": 521927,
+              "duration": 7868255,
               "status": "passed"
             },
             "match": {
@@ -600,7 +600,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2854214659,
+              "duration": 2362049923,
               "status": "passed"
             },
             "line": 68,
@@ -612,7 +612,7 @@
           },
           {
             "result": {
-              "duration": 1072054414,
+              "duration": 1076730771,
               "status": "passed"
             },
             "line": 69,
@@ -624,7 +624,7 @@
           },
           {
             "result": {
-              "duration": 9951380904,
+              "duration": 11111480290,
               "status": "passed"
             },
             "line": 70,
@@ -636,7 +636,7 @@
           },
           {
             "result": {
-              "duration": 34363840218,
+              "duration": 33131572658,
               "status": "passed"
             },
             "line": 71,
@@ -648,7 +648,7 @@
           },
           {
             "result": {
-              "duration": 69575624793,
+              "duration": 108372096097,
               "status": "passed"
             },
             "line": 72,
@@ -660,7 +660,7 @@
           },
           {
             "result": {
-              "duration": 32855833859,
+              "duration": 30789121178,
               "status": "passed"
             },
             "line": 73,
@@ -672,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 38241374221,
+              "duration": 41818606322,
               "status": "passed"
             },
             "line": 74,
@@ -684,7 +684,7 @@
           },
           {
             "result": {
-              "duration": 16317771016,
+              "duration": 14514553395,
               "status": "passed"
             },
             "line": 75,
@@ -696,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 90871,
+              "duration": 125065,
               "status": "passed"
             },
             "line": 76,
@@ -738,7 +738,7 @@
         "after": [
           {
             "result": {
-              "duration": 4748544,
+              "duration": 1390702,
               "status": "passed"
             },
             "match": {
@@ -751,7 +751,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3429508164,
+              "duration": 2151460571,
               "status": "passed"
             },
             "line": 5,
@@ -763,7 +763,7 @@
           },
           {
             "result": {
-              "duration": 1148976592,
+              "duration": 1036855074,
               "status": "passed"
             },
             "line": 6,
@@ -775,7 +775,7 @@
           },
           {
             "result": {
-              "duration": 10094064874,
+              "duration": 11143815536,
               "status": "passed"
             },
             "line": 7,
@@ -787,7 +787,7 @@
           },
           {
             "result": {
-              "duration": 34341029452,
+              "duration": 34025488784,
               "status": "passed"
             },
             "line": 8,
@@ -799,7 +799,7 @@
           },
           {
             "result": {
-              "duration": 87242812596,
+              "duration": 90117666905,
               "status": "passed"
             },
             "line": 9,
@@ -811,7 +811,7 @@
           },
           {
             "result": {
-              "duration": 31956869752,
+              "duration": 34872131445,
               "status": "passed"
             },
             "line": 10,
@@ -823,7 +823,7 @@
           },
           {
             "result": {
-              "duration": 17269064379,
+              "duration": 16063508877,
               "status": "passed"
             },
             "line": 11,
@@ -835,7 +835,7 @@
           },
           {
             "result": {
-              "duration": 74371,
+              "duration": 64953,
               "status": "passed"
             },
             "line": 12,
@@ -848,14 +848,14 @@
         ]
       },
       {
-        "line": 17,
-        "name": "As a Registered User, i want to tap on Comment icon so that i can add comment to a Quickee Post.",
+        "line": 15,
+        "name": "As a Registered User, i want to tap on AddToThisQuickeeButton so that User can give Rating to the Quickee Post",
         "description": "",
-        "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post;as-a-registered-user,-i-want-to-tap-on-comment-icon-so-that-i-can-add-comment-to-a-quickee-post.",
+        "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post;as-a-registered-user,-i-want-to-tap-on-addtothisquickeebutton-so-that-user-can-give-rating-to-the-quickee-post",
         "after": [
           {
             "result": {
-              "duration": 1344281,
+              "duration": 23689741,
               "status": "passed"
             },
             "match": {
@@ -868,10 +868,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2133530952,
+              "duration": 4037767101,
               "status": "passed"
             },
-            "line": 19,
+            "line": 17,
             "name": "Click on Login link on Get Started Screen",
             "match": {
               "location": "LoginSteps.goToLoginScreen()"
@@ -880,10 +880,10 @@
           },
           {
             "result": {
-              "duration": 1125396519,
+              "duration": 1045590728,
               "status": "passed"
             },
-            "line": 20,
+            "line": 18,
             "name": "Tap on EmailAddress button on Welcome Screen",
             "match": {
               "location": "LoginSteps.taponEmailAddress()"
@@ -892,10 +892,10 @@
           },
           {
             "result": {
-              "duration": 10161472302,
+              "duration": 10344154863,
               "status": "passed"
             },
-            "line": 21,
+            "line": 19,
             "name": "Enter Email and Password and click on Sign In button",
             "match": {
               "location": "LoginSteps.enterEmailAndPassword()"
@@ -904,10 +904,10 @@
           },
           {
             "result": {
-              "duration": 32809355067,
+              "duration": 34588872103,
               "status": "passed"
             },
-            "line": 22,
+            "line": 20,
             "name": "Click on Profile link from Latest Quickees Screen",
             "match": {
               "location": "LoginSteps.goToProfile()"
@@ -916,22 +916,34 @@
           },
           {
             "result": {
-              "duration": 71494813803,
+              "duration": 56497927730,
               "status": "passed"
             },
-            "line": 23,
-            "name": "Tap on Comment button to Add Comment a Quickee post",
+            "line": 21,
+            "name": "Tap on AddToThisQuickee button",
             "match": {
-              "location": "Add_Comment.addComment()"
+              "location": "AddToThisQuickee.TapOnAddButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 38123294333,
+              "duration": 7519501597,
               "status": "passed"
             },
-            "line": 24,
+            "line": 22,
+            "name": "Tap on StarRating Bar to give ratings and then tap on Post submit button",
+            "match": {
+              "location": "AddToThisQuickee.AddRating_Submitpost()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31520767691,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "Click on Settings icon from profile Screen",
             "match": {
               "location": "LoginSteps.goToSettings()"
@@ -940,10 +952,10 @@
           },
           {
             "result": {
-              "duration": 14000437011,
+              "duration": 14906646685,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "Click on LogOut tab",
             "match": {
               "location": "LoginSteps.clickOnlogoutTab()"
@@ -952,10 +964,10 @@
           },
           {
             "result": {
-              "duration": 107921,
+              "duration": 69230,
               "status": "passed"
             },
-            "line": 26,
+            "line": 25,
             "name": "User should be successfully LogOut",
             "match": {
               "location": "LoginSteps.verifyLogout()"
@@ -965,7 +977,130 @@
         ],
         "tags": [
           {
-            "line": 16,
+            "line": 14,
+            "name": "@AddToThisQuickee"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "As a Registered User, i want to tap on Comment icon so that i can add comment to a Quickee Post.",
+        "description": "",
+        "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post;as-a-registered-user,-i-want-to-tap-on-comment-icon-so-that-i-can-add-comment-to-a-quickee-post.",
+        "after": [
+          {
+            "result": {
+              "duration": 11054116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2179742098,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on Login link on Get Started Screen",
+            "match": {
+              "location": "LoginSteps.goToLoginScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1086973847,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Tap on EmailAddress button on Welcome Screen",
+            "match": {
+              "location": "LoginSteps.taponEmailAddress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9811067512,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter Email and Password and click on Sign In button",
+            "match": {
+              "location": "LoginSteps.enterEmailAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35555439218,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Profile link from Latest Quickees Screen",
+            "match": {
+              "location": "LoginSteps.goToProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74693499394,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Tap on Comment button to Add Comment a Quickee post",
+            "match": {
+              "location": "Add_Comment.addComment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40747456410,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on Settings icon from profile Screen",
+            "match": {
+              "location": "LoginSteps.goToSettings()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14045423438,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on LogOut tab",
+            "match": {
+              "location": "LoginSteps.clickOnlogoutTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104453,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should be successfully LogOut",
+            "match": {
+              "location": "LoginSteps.verifyLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
             "name": "@Add_Comment"
           }
         ]
@@ -994,7 +1129,7 @@
         "after": [
           {
             "result": {
-              "duration": 22526042,
+              "duration": 360388,
               "status": "passed"
             },
             "match": {
@@ -1007,7 +1142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2100476469,
+              "duration": 2021589002,
               "status": "passed"
             },
             "line": 5,
@@ -1019,7 +1154,7 @@
           },
           {
             "result": {
-              "duration": 1059875195,
+              "duration": 1027493755,
               "status": "passed"
             },
             "line": 6,
@@ -1031,7 +1166,7 @@
           },
           {
             "result": {
-              "duration": 12720127738,
+              "duration": 10233296956,
               "status": "passed"
             },
             "line": 7,
@@ -1043,7 +1178,7 @@
           },
           {
             "result": {
-              "duration": 35057068044,
+              "duration": 36663434261,
               "status": "passed"
             },
             "line": 8,
@@ -1055,7 +1190,7 @@
           },
           {
             "result": {
-              "duration": 69843257127,
+              "duration": 105375094757,
               "status": "passed"
             },
             "line": 9,
@@ -1067,7 +1202,7 @@
           },
           {
             "result": {
-              "duration": 46550712856,
+              "duration": 46893418452,
               "status": "passed"
             },
             "line": 10,
@@ -1079,7 +1214,7 @@
           },
           {
             "result": {
-              "duration": 32736675867,
+              "duration": 33904698046,
               "status": "passed"
             },
             "line": 11,
@@ -1091,7 +1226,7 @@
           },
           {
             "result": {
-              "duration": 14547311598,
+              "duration": 16814801991,
               "status": "passed"
             },
             "line": 12,
@@ -1103,7 +1238,7 @@
           },
           {
             "result": {
-              "duration": 90757,
+              "duration": 76598,
               "status": "passed"
             },
             "line": 13,
@@ -1116,14 +1251,14 @@
         ]
       },
       {
-        "line": 16,
-        "name": "As a Registered User, i want to select Delete Quickee options so that i can delete my Quickee",
+        "line": 18,
+        "name": "As a Registered User, i want to select Delete Quickee options so that User can delete his/her Quickee Post",
         "description": "",
-        "id": "acceptance-testing-of-favourites-post,-so-that-a-user-can-able-to-add-quickee-post-to-his/her-favourite-list;as-a-registered-user,-i-want-to-select-delete-quickee-options-so-that-i-can-delete-my-quickee",
+        "id": "acceptance-testing-of-favourites-post,-so-that-a-user-can-able-to-add-quickee-post-to-his/her-favourite-list;as-a-registered-user,-i-want-to-select-delete-quickee-options-so-that-user-can-delete-his/her-quickee-post",
         "after": [
           {
             "result": {
-              "duration": 1443557,
+              "duration": 1230952,
               "status": "passed"
             },
             "match": {
@@ -1136,10 +1271,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2726451168,
+              "duration": 3062064768,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "Click on Login link on Get Started Screen",
             "match": {
               "location": "LoginSteps.goToLoginScreen()"
@@ -1148,10 +1283,10 @@
           },
           {
             "result": {
-              "duration": 1095376364,
+              "duration": 1082684555,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "Tap on EmailAddress button on Welcome Screen",
             "match": {
               "location": "LoginSteps.taponEmailAddress()"
@@ -1160,10 +1295,10 @@
           },
           {
             "result": {
-              "duration": 10049835703,
+              "duration": 9878416432,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "Enter Email and Password and click on Sign In button",
             "match": {
               "location": "LoginSteps.enterEmailAndPassword()"
@@ -1172,10 +1307,10 @@
           },
           {
             "result": {
-              "duration": 34253550264,
+              "duration": 35986596220,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "Click on Profile link from Latest Quickees Screen",
             "match": {
               "location": "LoginSteps.goToProfile()"
@@ -1184,10 +1319,10 @@
           },
           {
             "result": {
-              "duration": 70577662311,
+              "duration": 106347751921,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "Tap on More options button and select delete post option to delete a quickee post",
             "match": {
               "location": "Delete_Quickee.DeleteQuickeePost()"
@@ -1196,10 +1331,10 @@
           },
           {
             "result": {
-              "duration": 39057009339,
+              "duration": 38718864509,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "Click on Settings icon from profile Screen",
             "match": {
               "location": "LoginSteps.goToSettings()"
@@ -1208,10 +1343,10 @@
           },
           {
             "result": {
-              "duration": 14121941619,
+              "duration": 16444006778,
               "status": "passed"
             },
-            "line": 24,
+            "line": 26,
             "name": "Click on LogOut tab",
             "match": {
               "location": "LoginSteps.clickOnlogoutTab()"
@@ -1220,10 +1355,10 @@
           },
           {
             "result": {
-              "duration": 93772,
+              "duration": 61538,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "User should be successfully LogOut",
             "match": {
               "location": "LoginSteps.verifyLogout()"
@@ -1233,7 +1368,7 @@
         ],
         "tags": [
           {
-            "line": 15,
+            "line": 17,
             "name": "@DeleteQuickee"
           }
         ]

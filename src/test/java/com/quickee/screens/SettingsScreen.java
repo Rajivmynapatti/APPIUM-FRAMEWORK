@@ -55,7 +55,7 @@ public class SettingsScreen extends SharedDriver {
 	@iOSFindBy(id="DislikeSelected0")
 	private MobileElement DislikeSelected;
 	
-	@iOSFindBy(id="ButtonAddToThisQuickee")
+	@iOSFindBy(id="ButtonAddToThisQuickee0")
 	private MobileElement Addtothisquickee;
 	
 	@iOSFindBy(id="ButtonComment0")
@@ -149,7 +149,7 @@ public class SettingsScreen extends SharedDriver {
 	public void AddCommentIcon(){
 		click(Commentbutton);
 	}
-	public void AddRatingToQuickees(){
+	public void AddToThisQuickees(){
 		click(Addtothisquickee);
 	}
 	

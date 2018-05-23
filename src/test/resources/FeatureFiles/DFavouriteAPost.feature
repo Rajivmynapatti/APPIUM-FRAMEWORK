@@ -12,8 +12,10 @@ Feature: Acceptance testing of Favourites post, so that a User can able to Add Q
   And Click on LogOut tab
   Then User should be successfully LogOut
   
+  
+  
    @DeleteQuickee
-  Scenario: As a Registered User, i want to select Delete Quickee options so that i can delete my Quickee
+  Scenario: As a Registered User, i want to select Delete Quickee options so that User can delete his/her Quickee Post
   
   Given Click on Login link on Get Started Screen
   Then Tap on EmailAddress button on Welcome Screen

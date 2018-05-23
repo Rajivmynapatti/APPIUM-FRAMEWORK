@@ -1,6 +1,9 @@
 package com.quickee.screens;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.quickee.driver.SharedDriver;
 
@@ -60,6 +63,11 @@ public class ProfileScreen extends SharedDriver{
 	}
 	
 	public void clickOnMoreOptions(){
+		WebDriverWait wait = new WebDriverWait(driver,30);
+
+		wait.until(ExpectedConditions.visibilityOf(More_icon));
+
+		//driver.findElement(By.linkText("Samsung")).click();
 		click(More_icon);
 		
 	}

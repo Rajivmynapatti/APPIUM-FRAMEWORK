@@ -17,7 +17,7 @@ public class Edit_Quickee extends ProfileScreen{
 	@And ("^Tap on More options button and select Edit post option to Edit quickee post$")
 	public void SelectEdit(){
 		
-			fluentWait();
+			//fluentWait();
 	
 	//Tap on MoreOption of the very first quickee post		
 			clickOnMoreOptions();
