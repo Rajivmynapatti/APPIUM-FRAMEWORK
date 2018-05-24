@@ -1,12 +1,8 @@
 package com.quickee.screens;
 
-import java.util.List;
-
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import com.quickee.driver.SharedDriver;
-import com.quickee.driver.SharedDriver.Direction;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;

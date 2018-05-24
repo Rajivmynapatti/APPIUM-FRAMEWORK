@@ -65,53 +65,53 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 28849746956,
+  "duration": 52479658403,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1413281896,
+  "duration": 1561090006,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 12079408999,
+  "duration": 11116162297,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 33130905436,
+  "duration": 48042742507,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 34962582968,
+  "duration": 35124813988,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 15153004820,
+  "duration": 16727026679,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 114776,
+  "duration": 142654,
   "status": "passed"
 });
 formatter.after({
-  "duration": 787168,
+  "duration": 954663,
   "status": "passed"
 });
 formatter.scenario({
@@ -157,39 +157,39 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 2302321780,
+  "duration": 2402153327,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1081028003,
+  "duration": 1030958075,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidLogin.TapOnSignInbutton()"
 });
 formatter.result({
-  "duration": 5524804443,
+  "duration": 5258253817,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidLogin.EnterInvalidCredentials()"
 });
 formatter.result({
-  "duration": 9985709068,
+  "duration": 9683269668,
   "status": "passed"
 });
 formatter.match({
   "location": "InvalidLogin.SwitchAlertAndGetText()"
 });
 formatter.result({
-  "duration": 6156217570,
+  "duration": 5689802808,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16107434,
+  "duration": 550899,
   "status": "passed"
 });
 formatter.uri("BCreateQuickee.feature");
@@ -374,116 +374,116 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 2427176287,
+  "duration": 2166786250,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1095239540,
+  "duration": 1091422586,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 9668975514,
+  "duration": 10279407092,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.click_on_addnew_link_from_Latest_Quickees_Screen()"
 });
 formatter.result({
-  "duration": 34292294885,
+  "duration": 34599731565,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.click_on_Anonymously_icon_from_QuickeeTypeScreen()"
 });
 formatter.result({
-  "duration": 6103873369,
+  "duration": 6058520960,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.click_on_Next_button()"
 });
 formatter.result({
-  "duration": 1962204119,
+  "duration": 1956282359,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_navigate_to_Map_view_screen_and_select_any_one_Store()"
 });
 formatter.result({
-  "duration": 27968123435,
+  "duration": 31516891363,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.Add_Title_and_Description_to_that_selected_store_and_tap_on_Next_button()"
 });
 formatter.result({
-  "duration": 13659076542,
+  "duration": 13307589205,
   "status": "passed"
 });
 formatter.match({
   "location": "QuickeeWithImage.AddImage()"
 });
 formatter.result({
-  "duration": 20520755193,
+  "duration": 19458169600,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_get_the_preview_screen_and_tap_on_next_button()"
 });
 formatter.result({
-  "duration": 6196241624,
+  "duration": 6243164316,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_provide_rating_to_the_quickee()"
 });
 formatter.result({
-  "duration": 2820755588,
+  "duration": 3025452652,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_provide_Quickee_badge_and_then_tap_on_Post_quickee_button()"
 });
 formatter.result({
-  "duration": 6060903838,
+  "duration": 6319366122,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 47070707407,
+  "duration": 49582956173,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 36355021974,
+  "duration": 35724883479,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 14296630845,
+  "duration": 16151584198,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 81580,
+  "duration": 82522,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1345947,
+  "duration": 19111061,
   "status": "passed"
 });
 formatter.scenario({
@@ -623,67 +623,67 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 2362049923,
+  "duration": 2562691776,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1076730771,
+  "duration": 1051145997,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 11111480290,
+  "duration": 10297438801,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 33131572658,
+  "duration": 36454804815,
   "status": "passed"
 });
 formatter.match({
   "location": "Edit_Quickee.SelectEdit()"
 });
 formatter.result({
-  "duration": 108372096097,
+  "duration": 78786771703,
   "status": "passed"
 });
 formatter.match({
   "location": "Edit_Quickee.SelectSave()"
 });
 formatter.result({
-  "duration": 30789121178,
+  "duration": 33262399240,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 41818606322,
+  "duration": 40474878671,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 14514553395,
+  "duration": 16500602760,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 125065,
+  "duration": 83178,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7868255,
+  "duration": 2768753,
   "status": "passed"
 });
 formatter.uri("CLike_Dislike_Comment.feature");
@@ -752,60 +752,60 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 2151460571,
+  "duration": 2274955423,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1036855074,
+  "duration": 1072638881,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 11143815536,
+  "duration": 10177193779,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 34025488784,
+  "duration": 36821496852,
   "status": "passed"
 });
 formatter.match({
   "location": "Like_Dislike_Comment_Quickee.Hitting_Like_Dislike()"
 });
 formatter.result({
-  "duration": 90117666905,
+  "duration": 88991506948,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 34872131445,
+  "duration": 33533990861,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 16063508877,
+  "duration": 13949476330,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 64953,
+  "duration": 75833,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1390702,
+  "duration": 2593271,
   "status": "passed"
 });
 formatter.scenario({
@@ -871,67 +871,67 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 4037767101,
+  "duration": 2208991264,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1045590728,
+  "duration": 1072997811,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 10344154863,
+  "duration": 10265558698,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 34588872103,
+  "duration": 36087160593,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToThisQuickee.TapOnAddButton()"
 });
 formatter.result({
-  "duration": 56497927730,
+  "duration": 54809897900,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToThisQuickee.AddRating_Submitpost()"
 });
 formatter.result({
-  "duration": 7519501597,
+  "duration": 9857944902,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 31520767691,
+  "duration": 33609415509,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 14906646685,
+  "duration": 17423351968,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 69230,
+  "duration": 99795,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23689741,
+  "duration": 714854,
   "status": "passed"
 });
 formatter.scenario({
@@ -992,60 +992,60 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 2179742098,
+  "duration": 2311817896,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1086973847,
+  "duration": 1106882968,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 9811067512,
+  "duration": 10787307506,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 35555439218,
+  "duration": 36955456954,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_Comment.addComment()"
 });
 formatter.result({
-  "duration": 74693499394,
+  "duration": 71909866688,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 40747456410,
+  "duration": 39322533129,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 14045423438,
+  "duration": 17276748624,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 104453,
+  "duration": 192422,
   "status": "passed"
 });
 formatter.after({
-  "duration": 11054116,
+  "duration": 36451550,
   "status": "passed"
 });
 formatter.uri("DFavouriteAPost.feature");
@@ -1119,67 +1119,67 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 2021589002,
+  "duration": 2398460501,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1027493755,
+  "duration": 1052870011,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 10233296956,
+  "duration": 10672404413,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 36663434261,
+  "duration": 36625417451,
   "status": "passed"
 });
 formatter.match({
   "location": "FavouriteAQucikeePost.AddQuickeeToFavourite()"
 });
 formatter.result({
-  "duration": 105375094757,
+  "duration": 80799122591,
   "status": "passed"
 });
 formatter.match({
   "location": "FavouriteAQucikeePost.ViewFavouriteQuickeeList()"
 });
 formatter.result({
-  "duration": 46893418452,
+  "duration": 48431879134,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 33904698046,
+  "duration": 33041816183,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 16814801991,
+  "duration": 15842457800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 76598,
+  "duration": 84275,
   "status": "passed"
 });
 formatter.after({
-  "duration": 360388,
+  "duration": 1112121,
   "status": "passed"
 });
 formatter.scenario({
@@ -1240,60 +1240,60 @@ formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 3062064768,
+  "duration": 2354419411,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1082684555,
+  "duration": 1031072646,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 9878416432,
+  "duration": 11614054982,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 35986596220,
+  "duration": 37122928298,
   "status": "passed"
 });
 formatter.match({
   "location": "Delete_Quickee.DeleteQuickeePost()"
 });
 formatter.result({
-  "duration": 106347751921,
+  "duration": 82204923578,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToSettings()"
 });
 formatter.result({
-  "duration": 38718864509,
+  "duration": 39694105914,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickOnlogoutTab()"
 });
 formatter.result({
-  "duration": 16444006778,
+  "duration": 15468358866,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verifyLogout()"
 });
 formatter.result({
-  "duration": 61538,
+  "duration": 624392,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1230952,
+  "duration": 1763550,
   "status": "passed"
 });
 });

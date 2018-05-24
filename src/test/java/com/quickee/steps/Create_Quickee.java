@@ -1,7 +1,5 @@
 package com.quickee.steps;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 
 import com.quickee.screens.AddDescScreen;
@@ -15,7 +13,6 @@ import com.quickee.screens.SettingsScreen;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 
 public class Create_Quickee extends LoginScreen {

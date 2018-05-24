@@ -1,11 +1,8 @@
 package com.quickee.steps;
 
-import org.openqa.selenium.Alert;
-
 import com.quickee.screens.LoginScreen;
 import com.quickee.screens.Post_A_QuickeeScreen;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

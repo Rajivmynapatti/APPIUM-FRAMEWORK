@@ -5,12 +5,7 @@ package com.quickee.driver;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
-import io.appium.java_client.ios.IOSDriver;
 
 public class SharedProperties {
 
@@ -27,6 +22,7 @@ public class SharedProperties {
     private String androidPropertiesFile = "android.properties";
     private String iosPropertiesFile = "ios.properties";
     
+    private String appPath1= System.getProperty("user.dir")+"/App/Quickee.app";
 
     public SharedProperties() {getLocalPropertiesFile();}
 
@@ -62,7 +58,7 @@ public class SharedProperties {
     public String getRealDevice() {return realDevice;}
     public String getIosUuid() {return iOSUuid;}
     public String getIosBundleID() {return iosBundleID;}
-
+    public String getAppPath1(){return appPath1;}
     
 
 }

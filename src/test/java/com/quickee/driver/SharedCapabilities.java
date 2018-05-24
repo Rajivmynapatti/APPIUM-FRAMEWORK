@@ -1,12 +1,7 @@
 package com.quickee.driver;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -54,6 +49,8 @@ public class SharedCapabilities {
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, sharedProperties.getPlatformVersion());
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, sharedProperties.getDeviceName());
         desiredCapabilities.setCapability(MobileCapabilityType.APP, sharedProperties.getIosBundleID());
+      //  desiredCapabilities.setCapability(MobileCapabilityType.APP, sharedProperties.getAppPath());
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, sharedProperties.getAppPath1());
         desiredCapabilities.setCapability(MobileCapabilityType.UDID, sharedProperties.getIosUuid() );
         desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 120);
     }

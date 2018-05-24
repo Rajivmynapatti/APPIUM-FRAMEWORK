@@ -2,19 +2,16 @@ package com.quickee.steps;
 
 import java.net.MalformedURLException;
 
-import org.apache.log4j.Logger;
-
-import com.quickee.driver.SharedDriver.Direction;
 import com.quickee.screens.GetStartedScreen;
 import com.quickee.screens.LatestQuickeesScreen;
 import com.quickee.screens.LoginScreen;
 import com.quickee.screens.ProfileScreen;
 import com.quickee.screens.SettingsScreen;
+
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.appium.java_client.MobileElement;
 
 
 
@@ -29,6 +26,8 @@ public class LoginSteps extends LoginScreen {
 
 	@Given("^Click on Login link on Get Started Screen$")
 	public void goToLoginScreen(){
+		
+		WaitforAlert();
 		
 		getstartedScreen.goToLoginScreen();
 		log.debug("Tapped on Login link from getstartedScreen");

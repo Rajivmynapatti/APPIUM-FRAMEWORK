@@ -6,27 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		0yrb49anA6eIfeoP59OfPjyTJ7I=
-		</data>
-		<key>pop-tests-osx-Info.plist</key>
-		<data>
-		xushrN36HOJ6cA364dUJTjgy6QI=
+		lAo0UbKBZm1LzyPtnyHb+Xv2R9w=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>pop-tests-osx-Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xushrN36HOJ6cA364dUJTjgy6QI=
-			</data>
-			<key>hash2</key>
-			<data>
-			iBlqq7ugMb5MPUaWv/3PoAELwx8yT7ODCpzOIbMGLWc=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^</key>
