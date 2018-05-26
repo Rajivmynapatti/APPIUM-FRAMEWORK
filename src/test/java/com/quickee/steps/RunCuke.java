@@ -22,8 +22,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(plugin = {"json:target/RunCuke/cucumber.json", "pretty", "html:target/RunCuke/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
-		features="src/test/resources/FeatureFiles", monochrome=false
-		//,tags={"@LoginwithInvalidUser"}
+		features="src/test/resources/FeatureFiles" //, monochrome=false
+		//,tags={"@LoginFunctionality"}
 		)
 
 public class RunCuke extends AbstractTestNGCucumberTests{

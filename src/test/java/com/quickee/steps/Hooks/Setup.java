@@ -10,6 +10,7 @@ import com.quickee.driver.SharedDriver;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
+import io.appium.java_client.AppiumDriver;
 
 public class Setup extends SharedDriver{
 
@@ -24,9 +25,13 @@ public class Setup extends SharedDriver{
 			byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			scenario.embed(screenshotBytes, "image/png");
 			
-		}
+			
 		
-		driver = null;
+			
+		}
+		((AppiumDriver) driver).closeApp();
+		((AppiumDriver) driver).launchApp();
+		//driver = null;
 	}
     
 

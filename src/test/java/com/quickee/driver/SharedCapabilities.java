@@ -53,6 +53,8 @@ public class SharedCapabilities {
         desiredCapabilities.setCapability(MobileCapabilityType.APP, sharedProperties.getAppPath1());
         desiredCapabilities.setCapability(MobileCapabilityType.UDID, sharedProperties.getIosUuid() );
         desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 120);
+        desiredCapabilities.setCapability("--session-override",true);
+        //desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET, false);
     }
 
     private boolean isRealDevice() {
