@@ -1,203 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ALogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("BCreateQuickee.feature");
 formatter.feature({
   "line": 2,
-  "name": "Acceptance testing for Login functionality with both Valid and Invalid User Credentials.",
+  "name": "Acceptance testing of Quickee Post by Creating, Editing a post.",
   "description": "",
-  "id": "acceptance-testing-for-login-functionality-with-both-valid-and-invalid-user-credentials.",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@LoginFunctionality"
-    }
-  ]
-});
-formatter.scenario({
-  "line": 5,
-  "name": "As a Registered User i want to check the login functionality by giving an invalid user Credentails.",
-  "description": "",
-  "id": "acceptance-testing-for-login-functionality-with-both-valid-and-invalid-user-credentials.;as-a-registered-user-i-want-to-check-the-login-functionality-by-giving-an-invalid-user-credentails.",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 4,
-      "name": "@LoginwithInvalidUser"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "Tap on SignIn button and get the Text of the alert",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "Enter both Invalid Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 11,
-  "name": "Get the alert text and tap on Ok button to accept the alert",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 98760627250,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 1487563517,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InvalidLogin.TapOnSignInbutton()"
-});
-formatter.result({
-  "duration": 5319187626,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InvalidLogin.EnterInvalidCredentials()"
-});
-formatter.result({
-  "duration": 11887635158,
-  "status": "passed"
-});
-formatter.match({
-  "location": "InvalidLogin.SwitchAlertAndGetText()"
-});
-formatter.result({
-  "duration": 5953604346,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 81744374491,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 15,
-  "name": "As a Registered User I want to able to Login into the application so that i can check valid user details",
-  "description": "",
-  "id": "acceptance-testing-for-login-functionality-with-both-valid-and-invalid-user-credentials.;as-a-registered-user-i-want-to-able-to-login-into-the-application-so-that-i-can-check-valid-user-details",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 14,
-      "name": "@LoginwithValidUser"
-    }
-  ]
-});
-formatter.step({
-  "line": 17,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 18,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "Enter Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 10282083273,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 2300862517,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.enterEmailAndPassword()"
-});
-formatter.result({
-  "duration": 15189445976,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 61271778055,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 36476384263,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 14682738674,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 164570,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 65993654555,
-  "status": "passed"
-});
-formatter.uri("BCreateQuickee.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Acceptance testing of Quickee Post by Creating, Editing and Deleting a Quickee post.",
-  "description": "",
-  "id": "acceptance-testing-of-quickee-post-by-creating,-editing-and-deleting-a-quickee-post.",
+  "id": "acceptance-testing-of-quickee-post-by-creating,-editing-a-post.",
   "keyword": "Feature",
   "tags": [
     {
@@ -280,7 +86,7 @@ formatter.scenario({
   "line": 25,
   "name": "As a Registered User, i want to tap on Add new icon so that i can create a Quickee post with Image",
   "description": "",
-  "id": "acceptance-testing-of-quickee-post-by-creating,-editing-and-deleting-a-quickee-post.;as-a-registered-user,-i-want-to-tap-on-add-new-icon-so-that-i-can-create-a-quickee-post-with-image",
+  "id": "acceptance-testing-of-quickee-post-by-creating,-editing-a-post.;as-a-registered-user,-i-want-to-tap-on-add-new-icon-so-that-i-can-create-a-quickee-post-with-image",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -350,144 +156,112 @@ formatter.step({
   "name": "User will provide Quickee badge and then tap on Post quickee button",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 39,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 40,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 41,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 42,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 7628641021,
+  "duration": 50414320360,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 1593540544,
+  "duration": 1592619817,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 11258245169,
+  "duration": 11586416244,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.click_on_addnew_link_from_Latest_Quickees_Screen()"
 });
 formatter.result({
-  "duration": 52734206395,
+  "duration": 50170215538,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.click_on_Anonymously_icon_from_QuickeeTypeScreen()"
 });
 formatter.result({
-  "duration": 6028791041,
+  "duration": 6179466611,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.click_on_Next_button()"
 });
 formatter.result({
-  "duration": 2022308741,
+  "duration": 2215827204,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_navigate_to_Map_view_screen_and_select_any_one_Store()"
 });
 formatter.result({
-  "duration": 23911946031,
+  "duration": 30267976726,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.Add_Title_and_Description_to_that_selected_store_and_tap_on_Next_button()"
 });
 formatter.result({
-  "duration": 14447627989,
+  "duration": 13931779360,
   "status": "passed"
 });
 formatter.match({
   "location": "QuickeeWithImage.AddImage()"
 });
 formatter.result({
-  "duration": 18752054110,
+  "duration": 18606240105,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_get_the_preview_screen_and_tap_on_next_button()"
 });
 formatter.result({
-  "duration": 5384110182,
+  "duration": 6892705886,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_provide_rating_to_the_quickee()"
 });
 formatter.result({
-  "duration": 2873507254,
+  "duration": 3639950775,
   "status": "passed"
 });
 formatter.match({
   "location": "Create_Quickee.User_will_provide_Quickee_badge_and_then_tap_on_Post_quickee_button()"
 });
 formatter.result({
-  "duration": 5988127336,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 63725103974,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 36156397081,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 16319886566,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 85278,
+  "duration": 6679563226,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37421990272,
+  "duration": 36497346387,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
+    {
+      "line": 39,
+      "value": "#  And Click on Profile link from Latest Quickees Screen"
+    },
+    {
+      "line": 40,
+      "value": "# And Click on Settings icon from profile Screen"
+    },
+    {
+      "line": 41,
+      "value": "# And Click on LogOut tab"
+    },
+    {
+      "line": 42,
+      "value": "# Then User should be successfully LogOut"
+    },
     {
       "line": 44,
       "value": "#  @CreateQuickeeWithVideo"
@@ -564,7 +338,7 @@ formatter.scenario({
   "line": 66,
   "name": "As a Registered User, i want to tap on More Options from Profile screen so that i can select Edit option to edit quickee post.",
   "description": "",
-  "id": "acceptance-testing-of-quickee-post-by-creating,-editing-and-deleting-a-quickee-post.;as-a-registered-user,-i-want-to-tap-on-more-options-from-profile-screen-so-that-i-can-select-edit-option-to-edit-quickee-post.",
+  "id": "acceptance-testing-of-quickee-post-by-creating,-editing-a-post.;as-a-registered-user,-i-want-to-tap-on-more-options-from-profile-screen-so-that-i-can-select-edit-option-to-edit-quickee-post.",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -604,696 +378,51 @@ formatter.step({
   "name": "Add text/Description/image and tap on Save button to save quickee post",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 74,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 75,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 76,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "LoginSteps.goToLoginScreen()"
 });
 formatter.result({
-  "duration": 7387806153,
+  "duration": 7209379424,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.taponEmailAddress()"
 });
 formatter.result({
-  "duration": 2108848841,
+  "duration": 2171518368,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enterEmailAndPassword()"
 });
 formatter.result({
-  "duration": 15242842828,
+  "duration": 11274163624,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.goToProfile()"
 });
 formatter.result({
-  "duration": 52800092109,
+  "duration": 49771556263,
   "status": "passed"
 });
 formatter.match({
   "location": "Edit_Quickee.SelectEdit()"
 });
 formatter.result({
-  "duration": 80615161923,
-  "status": "passed"
+  "duration": 32748289632,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Can\u0027t locate an element by this strategy: Locator map: \n- native content: \"By.id: ButtonMore0\" \n- html content: \"by id or name \"More_icon\"\"\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027ind126.local\u0027, ip: \u002710.2.6.73\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.11.6\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: driver.version: unknown\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:110)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:57)\n\tat io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$184e91dc.toString(\u003cgenerated\u003e)\n\tat java.lang.String.valueOf(String.java:2994)\n\tat java.lang.StringBuilder.append(StringBuilder.java:131)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:293)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:257)\n\tat com.quickee.screens.ProfileScreen.clickOnMoreOptions(ProfileScreen.java:67)\n\tat com.quickee.steps.Edit_Quickee.SelectEdit(Edit_Quickee.java:23)\n\tat ✽.And Tap on More options button and select Edit post option to Edit quickee post(BCreateQuickee.feature:72)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Edit_Quickee.SelectSave()"
 });
 formatter.result({
-  "duration": 36220305283,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 38258510234,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 16469873995,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 90919,
-  "status": "passed"
-});
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 36051768317,
-  "status": "passed"
-});
-formatter.uri("CLike_Dislike_Comment.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Acceptance Testing of Hitting Like, Dislike and adding Comment to the Quickee Post",
-  "description": "",
-  "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@HitLike\u0026DislikeToQuickee"
-    }
-  ]
-});
-formatter.scenario({
-  "line": 3,
-  "name": "As a Registered User, i want to check the Like, Dislike and Comment button functionality",
-  "description": "",
-  "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post;as-a-registered-user,-i-want-to-check-the-like,-dislike-and-comment-button-functionality",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "Enter Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Tap on Like/Dislike/Comment button to Like/Dislike/Add Comment a Quickee post",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 7958195136,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 2032786289,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.enterEmailAndPassword()"
-});
-formatter.result({
-  "duration": 10598612220,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 51049377539,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Like_Dislike_Comment_Quickee.Hitting_Like_Dislike()"
-});
-formatter.result({
-  "duration": 90648739512,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 35341582050,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 16175373026,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 105328,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 35668990111,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 15,
-  "name": "As a Registered User, i want to tap on AddToThisQuickeeButton so that User can give Rating to the Quickee Post",
-  "description": "",
-  "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post;as-a-registered-user,-i-want-to-tap-on-addtothisquickeebutton-so-that-user-can-give-rating-to-the-quickee-post",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 14,
-      "name": "@AddToThisQuickee"
-    }
-  ]
-});
-formatter.step({
-  "line": 17,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 18,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "Enter Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Tap on AddToThisQuickee button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Tap on StarRating Bar to give ratings and then tap on Post submit button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 25,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 8592339544,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 1541500245,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.enterEmailAndPassword()"
-});
-formatter.result({
-  "duration": 10908000742,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 51573188147,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddToThisQuickee.TapOnAddButton()"
-});
-formatter.result({
-  "duration": 50529517973,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AddToThisQuickee.AddRating_Submitpost()"
-});
-formatter.result({
-  "duration": 9898531296,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 33275992156,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 16069552945,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 68996,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 32796112099,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 28,
-  "name": "As a Registered User, i want to tap on Comment icon so that i can add comment to a Quickee Post.",
-  "description": "",
-  "id": "acceptance-testing-of-hitting-like,-dislike-and-adding-comment-to-the-quickee-post;as-a-registered-user,-i-want-to-tap-on-comment-icon-so-that-i-can-add-comment-to-a-quickee-post.",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 27,
-      "name": "@Add_Comment"
-    }
-  ]
-});
-formatter.step({
-  "line": 30,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 31,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 32,
-  "name": "Enter Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 33,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 34,
-  "name": "Tap on Comment button to Add Comment a Quickee post",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 35,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 36,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 8010082641,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 1521678016,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.enterEmailAndPassword()"
-});
-formatter.result({
-  "duration": 11519024645,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 37876452848,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Add_Comment.addComment()"
-});
-formatter.result({
-  "duration": 74873568199,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 39482103253,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 17477520797,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 93644,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 43786715737,
-  "status": "passed"
-});
-formatter.uri("DFavouriteAPost.feature");
-formatter.feature({
-  "line": 2,
-  "name": "Acceptance testing of Favourites post, so that a User can able to Add Quickee Post to his/her favourite List",
-  "description": "",
-  "id": "acceptance-testing-of-favourites-post,-so-that-a-user-can-able-to-add-quickee-post-to-his/her-favourite-list",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@AddPostToFavouriteList"
-    }
-  ]
-});
-formatter.scenario({
-  "line": 3,
-  "name": "As a Registered User, i want to select a quickee to Save as Favourite so that users can see selected post in Favourite list",
-  "description": "",
-  "id": "acceptance-testing-of-favourites-post,-so-that-a-user-can-able-to-add-quickee-post-to-his/her-favourite-list;as-a-registered-user,-i-want-to-select-a-quickee-to-save-as-favourite-so-that-users-can-see-selected-post-in-favourite-list",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "Enter Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Tap on More options button and select save option to favourite a quickee post",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Tap on love icon from Profile screen to view the list of all the Favourite\u0027s Post and then tap on back button to redirect again to profile screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 8303864363,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 1573298583,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.enterEmailAndPassword()"
-});
-formatter.result({
-  "duration": 11078065574,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 50883942994,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FavouriteAQucikeePost.AddQuickeeToFavourite()"
-});
-formatter.result({
-  "duration": 80009190151,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FavouriteAQucikeePost.ViewFavouriteQuickeeList()"
-});
-formatter.result({
-  "duration": 50576633214,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 33497160104,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 17128773827,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 74611,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 35633238809,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 18,
-  "name": "As a Registered User, i want to select Delete Quickee options so that User can delete his/her Quickee Post",
-  "description": "",
-  "id": "acceptance-testing-of-favourites-post,-so-that-a-user-can-able-to-add-quickee-post-to-his/her-favourite-list;as-a-registered-user,-i-want-to-select-delete-quickee-options-so-that-user-can-delete-his/her-quickee-post",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 17,
-      "name": "@DeleteQuickee"
-    }
-  ]
-});
-formatter.step({
-  "line": 20,
-  "name": "Click on Login link on Get Started Screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 21,
-  "name": "Tap on EmailAddress button on Welcome Screen",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "Enter Email and Password and click on Sign In button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 23,
-  "name": "Click on Profile link from Latest Quickees Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "Tap on More options button and select delete post option to delete a quickee post",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 25,
-  "name": "Click on Settings icon from profile Screen",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "Click on LogOut tab",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "User should be successfully LogOut",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.goToLoginScreen()"
-});
-formatter.result({
-  "duration": 7602892780,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.taponEmailAddress()"
-});
-formatter.result({
-  "duration": 2679336977,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.enterEmailAndPassword()"
-});
-formatter.result({
-  "duration": 12268430825,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToProfile()"
-});
-formatter.result({
-  "duration": 50647820960,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Delete_Quickee.DeleteQuickeePost()"
-});
-formatter.result({
-  "duration": 80164634743,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.goToSettings()"
-});
-formatter.result({
-  "duration": 39273446719,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.clickOnlogoutTab()"
-});
-formatter.result({
-  "duration": 16686081471,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.verifyLogout()"
-});
-formatter.result({
-  "duration": 199021,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 33280395708,
+  "duration": 34145382583,
   "status": "passed"
 });
 });

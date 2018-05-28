@@ -141,7 +141,7 @@ public class Create_Quickee extends LoginScreen {
 	    	  BadgeScreen.PostQuickee();
 	    	  
 	//Wait for 2 sec so that after post a quickee user will redirected to Lastest quickee screen.
-	    	  Thread.sleep(2000);
+	    	  Thread.sleep(5000);
 	    
 	    }
 	    

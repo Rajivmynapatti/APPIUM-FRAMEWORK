@@ -1,5 +1,5 @@
 @QuickeePost
-Feature: Acceptance testing of Quickee Post by Creating, Editing and Deleting a Quickee post.
+Feature: Acceptance testing of Quickee Post by Creating, Editing a post.
 	
 	
 #	@CreateQuickeeAnonymously
@@ -36,10 +36,10 @@ Feature: Acceptance testing of Quickee Post by Creating, Editing and Deleting a 
   Then User will get the preview screen and tap on next button
   Then User will provide rating to the quickee
   Then User will provide Quickee badge and then tap on Post quickee button
-   And Click on Profile link from Latest Quickees Screen
-  And Click on Settings icon from profile Screen
-  And Click on LogOut tab
-  Then User should be successfully LogOut
+ #  And Click on Profile link from Latest Quickees Screen
+ # And Click on Settings icon from profile Screen
+ # And Click on LogOut tab
+ # Then User should be successfully LogOut
   
 #  @CreateQuickeeWithVideo
   # Scenario: As a Registered User, i want to tap on Add new icon so that i can create a Quickee post with Image
@@ -71,9 +71,9 @@ Feature: Acceptance testing of Quickee Post by Creating, Editing and Deleting a 
   And Click on Profile link from Latest Quickees Screen
   And Tap on More options button and select Edit post option to Edit quickee post
   Then Add text/Description/image and tap on Save button to save quickee post
-  And Click on Settings icon from profile Screen
-  And Click on LogOut tab
-  Then User should be successfully LogOut
+ # And Click on Settings icon from profile Screen
+ # And Click on LogOut tab
+ # Then User should be successfully LogOut
   
  
   
