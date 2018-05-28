@@ -12,7 +12,7 @@ public class Add_Comment extends SettingsScreen{
 	Post_A_QuickeeScreen postQuickee = new Post_A_QuickeeScreen();
 	
 	@And ("^Tap on Comment button to Add Comment a Quickee post$")
-	public void addComment(){
+	public void addComment() throws InterruptedException{
 	
 		//Swipe till the Comment Button of the post is Visible in the screen
 			SwipeToPost2();
@@ -34,6 +34,8 @@ public class Add_Comment extends SettingsScreen{
 		//Post_A_QuickeeScreen postQuickee = new Post_A_QuickeeScreen();
 		
 		postQuickee.tapBack();
+		
+		Thread.sleep(5000);
 	}
 	
 	

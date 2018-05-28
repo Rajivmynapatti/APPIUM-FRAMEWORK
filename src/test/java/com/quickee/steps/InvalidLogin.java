@@ -25,11 +25,13 @@ public class InvalidLogin extends LoginScreen{
 		 clickSignInButton();
 	 }
 	 @Then ("^Get the alert text and tap on Ok button to accept the alert$")
-	 public void SwitchAlertAndGetText(){
+	 public void SwitchAlertAndGetText() throws InterruptedException{
+		
 		 GetAlertTextAndExceptIt();
 		 
-		driver.findElementById("Back Icon").click();
-		driver.findElementById("Back Icon").click();
+		 Thread.sleep(5000);
+	//	driver.findElementById("Back Icon").click();
+	//	driver.findElementById("Back Icon").click();
 				 
 		 
 	 }

@@ -8,7 +8,7 @@ public class Like_Dislike_Comment_Quickee extends SettingsScreen {
 	
 	
 	@And ("^Tap on Like/Dislike/Comment button to Like/Dislike/Add Comment a Quickee post$")
-	public void Hitting_Like_Dislike(){
+	public void Hitting_Like_Dislike() throws InterruptedException{
 	
 		//Swipe untill the LIKE, DISLIKE, COMMENT BUTTON is visible and can be handle
 			SwipeToPost2();
@@ -21,5 +21,7 @@ public class Like_Dislike_Comment_Quickee extends SettingsScreen {
 		//Then tap on Like button to like a quickee post	
 			HitLike();
 			System.out.println("WoW, i Love this Quickee Post :)");
+			
+			Thread.sleep(5000);
 	}
 }

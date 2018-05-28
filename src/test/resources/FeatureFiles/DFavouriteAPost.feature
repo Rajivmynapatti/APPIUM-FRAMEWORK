@@ -1,5 +1,5 @@
 @AddPostToFavouriteList
-Feature: Acceptance testing of Favourites post, so that a User can able to Add Quickee Post to his/her favourite List and Deleting of a Quickee Post
+Feature: Acceptance testing of Favourites post, so that a User can able to Add Quickee Post to his/her favourite List, Deleting of a Quickee Post and Viewing of Notification listing.
   Scenario: As a Registered User, i want to select a quickee to Save as Favourite so that users can see selected post in Favourite list
   
   Given Click on Login link on Get Started Screen
@@ -25,3 +25,15 @@ Feature: Acceptance testing of Favourites post, so that a User can able to Add Q
  # And Click on Settings icon from profile Screen
  # And Click on LogOut tab
  # Then User should be successfully LogOut
+ 
+ @Notifications
+ Scenario: As a Registered User, i want to tap on Notification icon, so that i can able to see Notification listing.
+ Given Click on Login link on Get Started Screen
+  Then Tap on EmailAddress button on Welcome Screen
+  When Enter Email and Password and click on Sign In button
+  And Click on Profile link from Latest Quickees Screen
+  Then Click on Notification icon
+  And Select any one Notification from User's Notification listing
+  
+ 
+ 

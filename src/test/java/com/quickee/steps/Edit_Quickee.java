@@ -28,7 +28,7 @@ public class Edit_Quickee extends ProfileScreen{
 	}
 	
 	  @Then ("^Add text/Description/image and tap on Save button to save quickee post$")
-	  public void SelectSave(){
+	  public void SelectSave() throws InterruptedException{
 		
 		  //Edit headline and description
 		  	QuickeeDesc.editTitleAndDescription();
@@ -42,6 +42,8 @@ public class Edit_Quickee extends ProfileScreen{
 		  		
 		 //Tap on save button to save edited quickee post
 		  clicktoSaveEditedQuickee();
+		  
+		  Thread.sleep(5000);
 	  }
 
 }

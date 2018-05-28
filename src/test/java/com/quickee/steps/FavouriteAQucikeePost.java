@@ -27,7 +27,7 @@ public class FavouriteAQucikeePost extends ProfileScreen {
 	  }
 	
 @And ("^Tap on love icon from Profile screen to view the list of all the Favourite's Post and then tap on back button to redirect again to profile screen$")
-		public void ViewFavouriteQuickeeList(){
+		public void ViewFavouriteQuickeeList() throws InterruptedException{
 	
 	
 	//Tap on LoveIcon ProfileScreen it will redirected to All Favourite Quickee list
@@ -38,6 +38,8 @@ public class FavouriteAQucikeePost extends ProfileScreen {
 		
 	//Tap on Back button to redirect agian to Profile screen from Favourite listing screen.
 		postQuickee.tapBack();
+		
+		Thread.sleep(5000);
 		
 	}
 	

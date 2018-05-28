@@ -8,10 +8,11 @@ public class Delete_Quickee extends ProfileScreen{
 
 	
 	  @And("^Tap on More options button and select delete post option to delete a quickee post$")
-	  public void DeleteQuickeePost(){
+	  public void DeleteQuickeePost() throws InterruptedException{
 		  
 		  clickOnMoreOptions();
 		  clickOnDeleteQuickee();
 		  
+		  Thread.sleep(5000);
 	  }
 }

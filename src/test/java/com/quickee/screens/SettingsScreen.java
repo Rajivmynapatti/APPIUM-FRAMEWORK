@@ -66,6 +66,9 @@ public class SettingsScreen extends SharedDriver {
 	@iOSFindBy(id="ButtonNotification")
 	private MobileElement NotificationIcon;
 	
+	@iOSFindBy(id="Notification0")
+	private MobileElement FirstNotificationIndex;
+	
 	public SettingsScreen(){
 		
 		PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);
@@ -88,6 +91,8 @@ public class SettingsScreen extends SharedDriver {
 	
 	public MobileElement TapLoveIcon(){return LoveIcon; }
 	public MobileElement NotificationIcon(){return NotificationIcon;}
+	public MobileElement Notification(){return FirstNotificationIndex;}
+	
 	
 	public void selectProfilePictureUsingGallery(){
 		click(profilePicture); 
@@ -163,6 +168,14 @@ public class SettingsScreen extends SharedDriver {
 	
 	public void TapOnLoveIcon(){
 		click(LoveIcon);
+	}
+	
+	public void TapOnNotificationIcon(){
+		click(NotificationIcon);
+		
+	}
+	public void TapOnNotificationListing(){
+		click(FirstNotificationIndex);
 	}
 	
 }

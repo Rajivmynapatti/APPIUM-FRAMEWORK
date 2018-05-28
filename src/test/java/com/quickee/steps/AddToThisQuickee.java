@@ -21,7 +21,7 @@ public class AddToThisQuickee extends SettingsScreen{
 	}
 
 	 @And ("^Tap on StarRating Bar to give ratings and then tap on Post submit button$")
-	public void AddRating_Submitpost(){
+	public void AddRating_Submitpost() throws InterruptedException{
 	
 		 //Give rating to the quickee
 		 AddRating.StarRating();
@@ -31,6 +31,8 @@ public class AddToThisQuickee extends SettingsScreen{
 		
 	//Get the text from the alert and then tap ok to accept the alert
 		GetAlertTextAndExceptIt();
+		
+		Thread.sleep(5000);
 	}
 
 }

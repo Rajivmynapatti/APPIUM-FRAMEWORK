@@ -15,11 +15,13 @@ public class QuickeeWithImage extends SettingsScreen{
 	
 	
 	@And("^Tap on Image icon and select an image from gallery to upload$")
-	public void AddImage(){
+	public void AddImage() throws InterruptedException{
 		   
 		QuickeeDesc.clickCamera();
 	  
 	   	selectGalleryforImage();
+	   	
+	   	Thread.sleep(5000);
 		
 	}
 }
