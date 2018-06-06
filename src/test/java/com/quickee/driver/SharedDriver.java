@@ -390,10 +390,14 @@ public void MethodSwipeUp(int durations){
     }
     
     public void GetAlertTextAndExceptIt(){
-    	
+    	try{
     	 Alert al=driver.switchTo().alert();
 		  System.out.println("The text present in the alert pop up is : \n" +al.getText());
-		  al.accept();
+		  al.accept();}
+    	
+    	catch(Exception e){
+    		System.err.println("no alert visible after 10 sec.");
+    	}
     	
     }
     public void clearTextField(MobileElement element) {

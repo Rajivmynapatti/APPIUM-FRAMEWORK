@@ -19,16 +19,18 @@ public class InvalidLogin extends LoginScreen{
 	
 	
 	 @When ("^Enter both Invalid Email and Password and click on Sign In button$")
-	 public void EnterInvalidCredentials(){
+	 public void EnterInvalidCredentials() throws InterruptedException{
 		 enterInvalidEmail(getAutoTestInvalidEmailUsername());
 		 enterInvalidPassword(getAutoTestInvalidEmailPassword());
 		 clickSignInButton();
+		 
+		 	Thread.sleep(5000);
+		 
+		 GetAlertTextAndExceptIt();
 	 }
 	 @Then ("^Get the alert text and tap on Ok button to accept the alert$")
 	 public void SwitchAlertAndGetText() throws InterruptedException{
 		
-		 GetAlertTextAndExceptIt();
-		 
 		 Thread.sleep(5000);
 	//	driver.findElementById("Back Icon").click();
 	//	driver.findElementById("Back Icon").click();
